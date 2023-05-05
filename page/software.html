@@ -1,0 +1,653 @@
+<style>
+  .header-section{
+    display:none;
+  }
+  .big-feature-section {
+     display:none;
+  }
+  .features-section{
+    display:none;
+  }
+  .companies-section{
+     display:none;
+  }
+</style>
+<head>
+<link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+
+</head>
+<style>
+
+
+/* Center website */
+.main {
+
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 100%;
+  display: none; 
+  border:0px solid blue;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+
+
+<!--MAIN (Center website)ji-->
+<div class="main">
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('people')">Computer Software</button>
+   <button class="btn" onclick="filterSelection('sandip')">Window Software</button>
+  <button class="btn" onclick="filterSelection('nature')">Programming Software</button>
+  <button class="btn" onclick="filterSelection('cars')"> Education Software</button>
+  <button class="btn" onclick="filterSelection('phone')"> Phone Software</button>
+  <button class="btn" onclick="filterSelection('live')"> Live Stream</button>
+  <button class="btn" onclick="filterSelection('web')"> Google Drive( Web)</button>
+  
+</div>
+
+<!--Portfolio Gallery Grid-->
+  <!--Window Software--->
+<div class="row">
+ <div class="column sandip">
+    <div class="content">
+     <h3 style="background-color:blue; color:white;">Download Windows ISO file (7,8,10,11)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh667axW5xqS5CPlZUzUj26CsA0ljMiM5F09KFTjW7e9LUrYbVt8kWGBqhQRo_rOK8mP1ONHAnwmIGvLM07PEpaJIr-dL0g9FvpVnF6EKyjVDoDjCQZlbNvqVXAQrKFfxUQYpjOkynoSVdT89TCYVNnAO8D5d7c-Xu4aEJdfUoJ2x5qfiwoMFtsE-hN/s774/1.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="740" data-original-width="774" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh667axW5xqS5CPlZUzUj26CsA0ljMiM5F09KFTjW7e9LUrYbVt8kWGBqhQRo_rOK8mP1ONHAnwmIGvLM07PEpaJIr-dL0g9FvpVnF6EKyjVDoDjCQZlbNvqVXAQrKFfxUQYpjOkynoSVdT89TCYVNnAO8D5d7c-Xu4aEJdfUoJ2x5qfiwoMFtsE-hN/s200/1.png"/></a></div>
+          
+         <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/operating-systems/windows-7-dec-2022-free-download-8870762/"><span style="color:white">Click Here</span></a></button>  
+       </div>
+        
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-SK8040Te0Fw-flASQzsJlei3AQeiGcR5MsRQY2ICn-gRm6N8gkx9-4al-nCLInMpC_Yc2VZSJYFOoCtOXGtQgTqY_FQtVv47cPJWQVCP-RmT2SgP_Ek6NhYl5EVFGAubj6JaGz4Y8kw7lMXNOt_EccKkfc4ypLoARcIgMuJv3i5vgzreEQYFGu4/s1375/2.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="740" data-original-width="774"  src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgN-SK8040Te0Fw-flASQzsJlei3AQeiGcR5MsRQY2ICn-gRm6N8gkx9-4al-nCLInMpC_Yc2VZSJYFOoCtOXGtQgTqY_FQtVv47cPJWQVCP-RmT2SgP_Ek6NhYl5EVFGAubj6JaGz4Y8kw7lMXNOt_EccKkfc4ypLoARcIgMuJv3i5vgzreEQYFGu4/s200/2.png"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/operating-systems/windows-8-1-pro-may-2021-free-download-9639751/"><span style="color:white">Click Here</span></a></button>
+       </div>
+      
+       <div class="w3-quarter">
+         
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUWGCbf9XGMQzH1vsyo_EgnU7RuMhkOkD1L9AvfbIPc3n2F-_bnQyTtchyv1qrGKqr72OLGzdMl0H2xSlvub9z7iIvgZpFuE43Mgdgg843XLFAFUlifPIsB35E0nYN2rMTt5jTPV7QScfLHVPtLCspvGGj1LEM9CUU2RPXp8pBl9Sb7hQXbbP8KbJ3/s230/3-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="740" data-original-width="774" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiUWGCbf9XGMQzH1vsyo_EgnU7RuMhkOkD1L9AvfbIPc3n2F-_bnQyTtchyv1qrGKqr72OLGzdMl0H2xSlvub9z7iIvgZpFuE43Mgdgg843XLFAFUlifPIsB35E0nYN2rMTt5jTPV7QScfLHVPtLCspvGGj1LEM9CUU2RPXp8pBl9Sb7hQXbbP8KbJ3/s200/3-removebg-preview.png"/></a></div>
+         
+           <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/operating-systems/windows-10-pro-august-2021-free-download-1372587/"><span style="color:white">Click Here</span></a></button> </div>
+        
+         <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf9Z6pu9QNbjvEVLuM-Kcg-soYt4eVfDhNJLENu07PGybx2oF67MKui7qqxZZ7LQG7gEArkjANuJ-JV7hkZF-9PGKKGAO_XsIbnOWOg7JX4AyXZBi4JWekZDV0t3T1bRnu5BmZCjq9tNr-HWIvS0P2eGquaI1CLwljd5de_Bjceopxph5lTbmigemB/s640/4.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="740" data-original-width="774" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhf9Z6pu9QNbjvEVLuM-Kcg-soYt4eVfDhNJLENu07PGybx2oF67MKui7qqxZZ7LQG7gEArkjANuJ-JV7hkZF-9PGKKGAO_XsIbnOWOg7JX4AyXZBi4JWekZDV0t3T1bRnu5BmZCjq9tNr-HWIvS0P2eGquaI1CLwljd5de_Bjceopxph5lTbmigemB/s200/4.png"/></a></div>
+             <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/operating-systems/windows-11-free-download-8871193/"><span style="color:white">Click Here</span></a></button>
+        </div></div> 
+      
+    <!---- 2 path sandip Window Software-------->  
+         <h3 style="background-color:blue; color:white;">
+    Microsoft Office Software(2007,2016,2019)</h3>
+      <hr/>
+         <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjWfGScrE7k1A3ZA59K1wj01CyvFDnxKQi4tWPIl2hD1Y0gJ-E-Gq8tLYxJJVqv23DA9xvw7s1FrCsacwQvDU8nGQfVbLxQiEO3qvQ8MtWzQsRGbo4eWqzDhggJjriCuoreeTco1eKoD8VM0g7QREb1566QMseygaz_T5OIwy-vJMYtQ9nHFF-PUdgp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="168" data-original-width="300" src="https://blogger.googleusercontent.com/img/a/AVvXsEjWfGScrE7k1A3ZA59K1wj01CyvFDnxKQi4tWPIl2hD1Y0gJ-E-Gq8tLYxJJVqv23DA9xvw7s1FrCsacwQvDU8nGQfVbLxQiEO3qvQ8MtWzQsRGbo4eWqzDhggJjriCuoreeTco1eKoD8VM0g7QREb1566QMseygaz_T5OIwy-vJMYtQ9nHFF-PUdgp"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/office-tools/microsoft-office-2007-enterprise-free-download-1648231/"><span style="color:white">Click Here</span></a></button>
+      </div>
+      <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEikyQQeIyGmxHxTw0EhO2CI1SiFnWTlHqckgehGctgl_kPhdUJ4HBcIoBf0z_gaERSD_Fco-DL0kAKYKCSkSmQJcS5diztvEZoxwtUNb7Go5RvYyZFPJgArCJJEqUrX-lNbMP7hgiqbznJYjDfgJHSerDdxhIAtHSkqrVM5lNt6sTp6RYsH6n3XgVMk" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="168" data-original-width="300" src="https://blogger.googleusercontent.com/img/a/AVvXsEikyQQeIyGmxHxTw0EhO2CI1SiFnWTlHqckgehGctgl_kPhdUJ4HBcIoBf0z_gaERSD_Fco-DL0kAKYKCSkSmQJcS5diztvEZoxwtUNb7Go5RvYyZFPJgArCJJEqUrX-lNbMP7hgiqbznJYjDfgJHSerDdxhIAtHSkqrVM5lNt6sTp6RYsH6n3XgVMk"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/office-tools/office-2016-pro-plus-vl-october-2021-free-download-3060597/"><span style="color:white">Click Here</span></a></button>
+        </div>
+        <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhEInVokOYN0Zb7rUm0kWDTYlW1nhyb8CIBlEfhwEabo3TOtgmFrpGLMsQMyR7SH7jIEEmQR-pUbh8I6jtVdFop3k0KnoSGjWqGT7EjCUZfyubK2omzqL1Sov8KEwc9cX8Jx9aw7z-noBT65D9clokNCLTC1gK49dJCSu3pBjn7kqKGtaCq6hA_SQ1S" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="165" data-original-width="305" src="https://blogger.googleusercontent.com/img/a/AVvXsEhEInVokOYN0Zb7rUm0kWDTYlW1nhyb8CIBlEfhwEabo3TOtgmFrpGLMsQMyR7SH7jIEEmQR-pUbh8I6jtVdFop3k0KnoSGjWqGT7EjCUZfyubK2omzqL1Sov8KEwc9cX8Jx9aw7z-noBT65D9clokNCLTC1gK49dJCSu3pBjn7kqKGtaCq6hA_SQ1S"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://getintopc.com/softwares/office-tools/office-2019-pro-plus-june-2021-free-download-5750229/"><span style="color:white">Click Here</span></a></button>
+           </div>
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEj673105tGZ-yG2t79UVdHhAvzKjBnXzhnM0ikPBjN59N8DbpyawH3uf9y1fOeqEbkb1pLoKJaYAeZQNpiRKeAIWsLGK2or2ighRt0pG-Ub5z736HVlVFB2iSlF-CwzDC5ahbuJw9BzU8DTHVfSpBKDzL1oTXJbdbFTpysI3Nh8TLjhLI_aJ1OXZ0o0" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="160" data-original-width="316" src="https://blogger.googleusercontent.com/img/a/AVvXsEj673105tGZ-yG2t79UVdHhAvzKjBnXzhnM0ikPBjN59N8DbpyawH3uf9y1fOeqEbkb1pLoKJaYAeZQNpiRKeAIWsLGK2or2ighRt0pG-Ub5z736HVlVFB2iSlF-CwzDC5ahbuJw9BzU8DTHVfSpBKDzL1oTXJbdbFTpysI3Nh8TLjhLI_aJ1OXZ0o0"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="http://www.kmsauto.info/"><span style="color:white">Click Here</span></a></button>
+        </div>
+      </div>
+          
+    <h3 style="background-color:blue; color:white;">
+    Windows (Software)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+    
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEh7LrK8kHx9cVpndAOkTWN0ZiYGp63hE4PzcksJPxbkcP0BZXQR5pF_dSmCd4sIq55obSO-PPYFc8Mexs70aPY4vHyDEiKbe6GuDitpLliy3ux6HjXvSrGod8L0c9xGxxoHCcsy0LEXmA7IX_KbL267GGZqV6imWPCUISYjbNrV3GIyrJe9jxJIAiDU=s256" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="218" data-original-width="256" src="https://blogger.googleusercontent.com/img/a/AVvXsEh7LrK8kHx9cVpndAOkTWN0ZiYGp63hE4PzcksJPxbkcP0BZXQR5pF_dSmCd4sIq55obSO-PPYFc8Mexs70aPY4vHyDEiKbe6GuDitpLliy3ux6HjXvSrGod8L0c9xGxxoHCcsy0LEXmA7IX_KbL267GGZqV6imWPCUISYjbNrV3GIyrJe9jxJIAiDU=s200"/></a></div>
+      <h4>LICENCE KEY:- T7C4Q-47VGM-R7J6B-VPJ84-JPJ93</h4>
+      <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/operating-systems/windows-xp-professional-sp3-jan-2019-free-download-1526494/"><span style="color:white">Click Here</span></a></button>
+        </div>
+    </div>
+       <h3 style="background-color:blue; color:white;">
+    Networking (Software)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+    
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgweOa_mDOEL6bt7ePEtQK7BbOh1TDmEK9PcyZPiW3Z8BJ8sJj6aCsbDbvyGW3anwZzTRh0RR2yGt6OJk91ABIa3mkVyH184f3fMA1n_8Vq-UDS7HQJ1w5Myvh3CxDDOiXkITWH6zxnzXI7NhrL70pelyWUgStdTgH5QqLwirFmiCtRlU_AbsEFZBmP=s750" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750" src="https://blogger.googleusercontent.com/img/a/AVvXsEgweOa_mDOEL6bt7ePEtQK7BbOh1TDmEK9PcyZPiW3Z8BJ8sJj6aCsbDbvyGW3anwZzTRh0RR2yGt6OJk91ABIa3mkVyH184f3fMA1n_8Vq-UDS7HQJ1w5Myvh3CxDDOiXkITWH6zxnzXI7NhrL70pelyWUgStdTgH5QqLwirFmiCtRlU_AbsEFZBmP=s200"/></a></div>
+        <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://rnsuryaa.blogspot.com/2022/01/packet-tracer-networking-simulation-tool.html"><span style="color:white">Click Here</span></a></button></div>
+        
+    </div>
+      </div>
+    </div>
+
+
+<!-------nature start window--->
+  
+  
+  
+  
+<div class="column nature">
+    <div class="content">
+      <h3 style="background-color:blue; color:white;">Computer Software/ Coding Software</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+       <div class="w3-quarter">
+         <div class="separator" style="clear: both; text-align: center;"><a href="https://www.speedtypingonline.com/typing-test" style="margin-left: 1em; margin-right: 1em;"><img border="0" width="200" data-original-height="430" data-original-width="750" src="https://1.bp.blogspot.com/-T5ZZCmyxWJE/X-FX80uI9FI/AAAAAAAADxo/QtuLNnyy83UTsPOlQb2AGiufeLSx0DNfQCLcBGAsYHQ/s320/20201222_073923.jpg" width="320" /></a></div><h2 style="color: green; text-align: center;">Typing Test</h2><hr /></div>
+        
+        
+        
+       <div class="w3-quarter">
+    <div class="separator" style="clear: both; text-align: center;"><a href="https://www.office.com/?ui=en-US&amp;rs=GB&amp;auth=1" style="margin-left: 1em; margin-right: 1em;"><img border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-G72bt8FKSDk/X-GvcDQNhVI/AAAAAAAADx0/EsqVEci1r2EcT_rs9tqh0IrQlyEkeOcLgCLcBGAsYHQ/s320/20201222_140320.jpg" width="320" /></a></div><h2 style="color: green; text-align: center;">Online Editing(pptx,docs,etc)</h2><hr /></div>
+      
+      
+        <div class="w3-quarter">
+    <div class="separator" style="clear: both; text-align: center;"><a href="https://hotpot.uvic.ca/setup_hotpot_7030.exe" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0"width="200" data-original-height="430" data-original-width="750" src="https://1.bp.blogspot.com/-4SvQmWloTNk/X_qeB3dHH3I/AAAAAAAAEA8/ln41Q0hzCBcsTkCra3cZwcTr7908bcbBQCLcBGAsYHQ/s320/20210110_084546.jpg" width="320" /></a></div><br />
+    <h2 style="color: green; text-align: center;">Quiz Build(Pc, Laptop)</h2><hr /></div>
+    
+       <div class="w3-quarter">
+    <div class="separator" style="clear: both; text-align: center;"><a href="https://www.tawk.to/" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-x1ICSj_Y1hk/X_qeP6ScDBI/AAAAAAAAEBA/rtpU5Ho5ZvsBS0pM1mEpMulE7gLvvPeewCLcBGAsYHQ/s320/20210110_112545.jpg" width="320" /></a></div><br />
+         <h2 style="color: green; text-align: center;">Message cleated</h2><hr /></div></div>
+      
+      
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+       <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://www.mentimeter.com/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-TL2N9vaSUDc/YCevoWVzc8I/AAAAAAAAEcE/sPY7h8IworgM5iFic-3VXoAfxcPzTo2RQCLcBGAsYHQ/s320/20210213_162149.jpg"/></a></div>
+    <h2 style="color: green; text-align: center;">quiz & other</h2><hr /></div>
+        
+    <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://accounts.zoho.in/signin?servicename=AaaServer&serviceurl=https%3A%2F%2Faccounts.zoho.in%2Fu%2Fh" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-qfXD9CsCRj4/YKR0xYdoWaI/AAAAAAAAE74/9CF0Mk9Yo4kqr90b09WGVxYMMg2bqWLswCLcBGAsYHQ/s400/20210518_163824.jpg"/></a></div>
+    <h2 style="color: green; text-align: center;">ZOHO DOCS</h2><hr /></div>
+    
+    <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://notepad-plus-plus.org/downloads/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-T6aUtqyqm6I/YKR07sNnpxI/AAAAAAAAE78/p48HF9afk1Y-hKu5b8FGrFMHhc0mjoO-wCLcBGAsYHQ/s400/20210518_163808.jpg"/></a></div>
+    <h2 style="color: green; text-align: center;">NOTEPAD++ (All coding editing)</h2><hr /></div>
+    
+    <div class="w3-quarter">                          
+    <div class="separator" style="clear: both;"><a href="https://code.visualstudio.com/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-cKS2Y14HyOE/YKR1ImFhzRI/AAAAAAAAE8E/5TNlpews4P8ZMKz8yq4QyTFc-tcZnW8FgCLcBGAsYHQ/s400/20210518_163705.jpg"/></a></div>
+    <h2 style="color: green; text-align: center;">VISUAL STUDIO CODE(HTML, CSS,PHP,ETC)</h2><hr /></div></div>
+      
+    
+     <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+    <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://www.apachefriends.org/download.html" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-lbukH_YuSPA/YKR1Ivps4QI/AAAAAAAAE8A/J0LiVfPKN08-wlKs5WJvdkMSA8UOhAoTgCLcBGAsYHQ/s400/20210518_163724.jpg"/></a></div>
+    <h2 style="color: green; text-align: center;">XAMPP SERVER (LOCALHOST, PHP) </h2><hr /></div>
+    
+      
+      <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://www.wampserver.com/en/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750"  src="https://1.bp.blogspot.com/-yEKJ7fESS8Y/YKR1KIGbUDI/AAAAAAAAE8M/UUJAZdyYZ7IxNTB4S4cm-0Gr7SotrnmMACLcBGAsYHQ/s400/20210518_163745.jpg"/></a></div>
+        <h2 style="color: green; text-align: center;">WAMP SERVER(LOCALHOST)</h2><hr /></div>
+      
+      
+     <div class="w3-quarter"> 
+       <div class="separator" style="clear: both;"><a href="https://getbutton.io/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750" src="https://blogger.googleusercontent.com/img/a/AVvXsEj46hdjuRTJ1kJ5kCRY9UTBbX08u_H1f0J9UEfRif6_BxkwPaNSuH-IK2pOTVUAtAI5UfUKEGlzzLgznYVU1jnH5Jam4lfXdKMajj30P_lez9us2Ef1p9q8dxtUtBPxGHbERpWqV-zdBTwuUXJCQ_6o-Ikz4Ql9FwTZL1hm9mR_Oy1fOuCy7oXs0UHy"/></a></div>
+      
+      <h2 style="color: green; text-align: center;">Get chat Button</h2><hr />
+       </div>
+       
+       <div class="w3-quarter"> 
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhXvo7QfjXIbSxI6zfKvVpNGxS2z3vhfVKIUT4tqPmTIeju8AygHWNYPbtyuvP0m4Wy6Yps3D59S9nj8X_YlUwSC8L6dMtKxe7-eb0XsgE7Ajr2umxuRqr7c-Ze1ViL-xV6pwEWOtDgcQ9Jv0VIDAkNeNytXWChAAz8DPeIn0nqb4B-7ThaTmEM4lCo" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="430" data-original-width="750" src="https://blogger.googleusercontent.com/img/a/AVvXsEhXvo7QfjXIbSxI6zfKvVpNGxS2z3vhfVKIUT4tqPmTIeju8AygHWNYPbtyuvP0m4Wy6Yps3D59S9nj8X_YlUwSC8L6dMtKxe7-eb0XsgE7Ajr2umxuRqr7c-Ze1ViL-xV6pwEWOtDgcQ9Jv0VIDAkNeNytXWChAAz8DPeIn0nqb4B-7ThaTmEM4lCo"/></a></div>
+      </div>
+          <h2 style="color: green; text-align: center;">Get chat Button</h2><hr />
+      </div></div>
+    
+</div></div>
+
+
+   
+  
+  <!--Education Software-->
+  <div class="column cars">
+    <div class="content">
+     
+    <!--Education-->
+      <h3 style="background-color:blue; color:white;">Education Software</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhK2n_hyyfqIaz-Wco7nBcaQTLOdB_odJ0uGDtIPQjsGZFoJ6JxBSG5KgWkXISsbrBerTQb3OKDDyci0PC-roOm4-F8LCDu6MJH8vg4jfZV1YQNhcm3jQi5zubac5OlZIP1wxw_Mmx53Nkyc5qj29ZhVhHDox1XIS8AbSZcZNgiAdS6Xk_58esf2na0" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="180" data-original-width="270" src="https://blogger.googleusercontent.com/img/a/AVvXsEhK2n_hyyfqIaz-Wco7nBcaQTLOdB_odJ0uGDtIPQjsGZFoJ6JxBSG5KgWkXISsbrBerTQb3OKDDyci0PC-roOm4-F8LCDu6MJH8vg4jfZV1YQNhcm3jQi5zubac5OlZIP1wxw_Mmx53Nkyc5qj29ZhVhHDox1XIS8AbSZcZNgiAdS6Xk_58esf2na0"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/typing/typing-master-pro-10-free-download-8334989/"><span style="color:white">Click Here</span></a></button></div>
+        
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjdkQxnxa6qkK6DhiMZtXAv8cLQVS8Y77G_AQCJWe4EtV7u9caG7BhSu2-9erlO3IA90pk2g6VZnKP6iAeVjaMXZveSwwum123OhF3uu1mP8afzKf1kLD8E_WAv6bHeDsJoeh1uOeJxgsUM1ErRyYQ3OY_f0yZ-MWVpU1uCUgPdE2UrwTI4BnZcwJE8" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="170" data-original-width="297" src="https://blogger.googleusercontent.com/img/a/AVvXsEjdkQxnxa6qkK6DhiMZtXAv8cLQVS8Y77G_AQCJWe4EtV7u9caG7BhSu2-9erlO3IA90pk2g6VZnKP6iAeVjaMXZveSwwum123OhF3uu1mP8afzKf1kLD8E_WAv6bHeDsJoeh1uOeJxgsUM1ErRyYQ3OY_f0yZ-MWVpU1uCUgPdE2UrwTI4BnZcwJE8"/></a></div>
+            <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/erp-systems/tally-erp-9-free-download/"><span style="color:white">Click Here</span></a></button></div>
+      <div class="w3-quarter">
+            <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiPnGjmNaaHZI79Ehvih_V3AE6TPZjt-SktxQx4dAWv1qc6DDQKcBX4ftIuQdHWvEXvYSxiEsdj-iwBUBC14Pk2QNFTB9499rZUSvJZWWUPlTYY2O5gcAr4Cjs55Xdk22lEIa1I8sGoK1Mdx_pkuZGC6krWwAnv1gZwRZSPnVsh9NTUg1OXy8mUWR1V" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="168" data-original-width="300" src="https://blogger.googleusercontent.com/img/a/AVvXsEiPnGjmNaaHZI79Ehvih_V3AE6TPZjt-SktxQx4dAWv1qc6DDQKcBX4ftIuQdHWvEXvYSxiEsdj-iwBUBC14Pk2QNFTB9499rZUSvJZWWUPlTYY2O5gcAr4Cjs55Xdk22lEIa1I8sGoK1Mdx_pkuZGC6krWwAnv1gZwRZSPnVsh9NTUg1OXy8mUWR1V"/></a></div>
+              <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://tallysolutions.com/download/"><span style="color:white">Click Here</span></a></button></div>
+        
+         <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjrQ24Mm6ery_t_UwaNducAabhM5NT74M6r1zLkLjLVFY4c3-f8Ttjwt1FjG18tDJ5PSytgtQcompWHCjMFd7xpuwNW8dazQYqWWG2NtJTw-Qe-ci27k8uJSPqKuw7MDJKcNLdAArt7wUyvQIud4UCZjQbWRQE_DKSj6ql_hCUsQYyBZdb0zGFCc3vn" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="177" data-original-width="285" src="https://blogger.googleusercontent.com/img/a/AVvXsEjrQ24Mm6ery_t_UwaNducAabhM5NT74M6r1zLkLjLVFY4c3-f8Ttjwt1FjG18tDJ5PSytgtQcompWHCjMFd7xpuwNW8dazQYqWWG2NtJTw-Qe-ci27k8uJSPqKuw7MDJKcNLdAArt7wUyvQIud4UCZjQbWRQE_DKSj6ql_hCUsQYyBZdb0zGFCc3vn"/></a></div>
+            <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/utilities/download-adobe-reader-11-0-03-free-setup-4153532/"><span style="color:white">Click Here</span></a></button></div>
+    </div>
+      
+      
+       <h3 style="background-color:blue; color:white;">Computer Software Ed..</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhpoVCjVPfKm8VMhPOb3OCbgn1DIXQt-r3ro0osNiUXAKdjbHIqNSwlPRPu9GzOLciZ0cuAE_fmM2wtwsVEMwTxFSHBOZlyl9x__6pNnhDnHo7UTDbJCkmK9jhzGJ_wjCQAhwQlA2diGSR3T2aSNZEsU5unmBjqquDxxsIyQ0bFF4ieyUvsdPu1acYQ" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="183" data-original-width="275" src="https://blogger.googleusercontent.com/img/a/AVvXsEhpoVCjVPfKm8VMhPOb3OCbgn1DIXQt-r3ro0osNiUXAKdjbHIqNSwlPRPu9GzOLciZ0cuAE_fmM2wtwsVEMwTxFSHBOZlyl9x__6pNnhDnHo7UTDbJCkmK9jhzGJ_wjCQAhwQlA2diGSR3T2aSNZEsU5unmBjqquDxxsIyQ0bFF4ieyUvsdPu1acYQ"/></a></div>
+      <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://www.win-rar.com/start.html?&L=0"><span style="color:white">Click Here (1)</span></a></button>
+     <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/compression/winrar-free-download/"><span style="color:white">Click Here (2)</span></a></button></div>
+        
+     <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjogOuTUIg4Midvtb1e5kve8nc2XfMAMZey4Ib8YxM0uH1A-4FAu5q0vxqA_2tcWeK-shB1G7G2Kc6tdC01_yNvLPaqzBGvLp8Hc-uHHeAqqOyzOOdqvf8-kyRjY73pMPRVde11T6BpNVz2F0r38wGHH-J6llwRV-nRvx5ap45CSzHMHQw4tawjVSrR" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="168" data-original-width="300" src="https://blogger.googleusercontent.com/img/a/AVvXsEjogOuTUIg4Midvtb1e5kve8nc2XfMAMZey4Ib8YxM0uH1A-4FAu5q0vxqA_2tcWeK-shB1G7G2Kc6tdC01_yNvLPaqzBGvLp8Hc-uHHeAqqOyzOOdqvf8-kyRjY73pMPRVde11T6BpNVz2F0r38wGHH-J6llwRV-nRvx5ap45CSzHMHQw4tawjVSrR"/></a></div>
+           <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/download-managers/idm-internet-download-manager-free-download/"><span style="color:white">Click Here (1)</span></a></button>
+         <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://drive.google.com/drive/folders/1dShYcTlHR3y0A6ofUXgZiad8otlOdoqL?usp=share_link"><span style="color:white">Click Here (2)</span></a></button>
+        </div>
+        <div class="w3-quarter">
+          
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiIrBK-4I63x3FQBoJpCIsAjTfapUxwf6Xv-XxS0l8PD9DYCH7PtN_gqlzC7Kq424VNa3XHtR2oM32M5-romUJKd6Szzw55f_AQWoIcNlcMW87oHl7zbGAhVoIZP5FmurrpGyDjJ7OxU9Rj8t_HdvTE7zKitnFV2DvPA75ywvH5_6VWa_LsrwCOTDXM=s820" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="558" data-original-width="820" src="https://blogger.googleusercontent.com/img/a/AVvXsEiIrBK-4I63x3FQBoJpCIsAjTfapUxwf6Xv-XxS0l8PD9DYCH7PtN_gqlzC7Kq424VNa3XHtR2oM32M5-romUJKd6Szzw55f_AQWoIcNlcMW87oHl7zbGAhVoIZP5FmurrpGyDjJ7OxU9Rj8t_HdvTE7zKitnFV2DvPA75ywvH5_6VWa_LsrwCOTDXM=s200"/></a></div>
+           <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/graphic-design/adobe-photoshop-7-free-download-6268611/"><span style="color:white">Click Here</span></a></button></div>
+          
+           <div class="w3-quarter">
+            <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiIpMDen0aiGBpwkJAOP55xBL58B4_XOSsFfQyvmDioT7m7fazOODGBCS8UUHMtEzv2y1NVT3VUSINAN-ozKDDKJaO-mx-lVAEhQt6SeEFFbPOWszt8rhlb2HVY0AMM9CdHrdtX_L_DCRyZszTLHFagoHOogCIVI5_3GQDLqInqHteLYr_j2KQ3-HvE" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" data-original-height="233" data-original-width="216" src="https://blogger.googleusercontent.com/img/a/AVvXsEiIpMDen0aiGBpwkJAOP55xBL58B4_XOSsFfQyvmDioT7m7fazOODGBCS8UUHMtEzv2y1NVT3VUSINAN-ozKDDKJaO-mx-lVAEhQt6SeEFFbPOWszt8rhlb2HVY0AMM9CdHrdtX_L_DCRyZszTLHFagoHOogCIVI5_3GQDLqInqHteLYr_j2KQ3-HvE"/></a></div>
+             <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://getintopc.com/softwares/graphic-design/adobe-photoshop-2022-free-download/"><span style="color:white">Click Here</span></a></button></div></div>
+ </div>
+ 
+ <!---car me  Creating and reducing PDF size--->
+  <h3 style="background-color:blue; color:white;">Creating and reducing PDF size</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiAhax1brEX7RWKKSOVsMdTE_0Qe9K1bJIc4oRUjTGMARafkRAH-naoAtLucOlPz03X1y2yIbzIvHzbJcvEmdoDB2H16ZvuX4LY18uxR8Hn4pe7UhJIz-vohNrvxkjaeBejsJU4_HXtG9TXjQVWrUbtXQunpiPCvSaX93FaMRi-WJBU7YvjH-pgrujQ=s346" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="266" data-original-width="346" src="https://blogger.googleusercontent.com/img/a/AVvXsEiAhax1brEX7RWKKSOVsMdTE_0Qe9K1bJIc4oRUjTGMARafkRAH-naoAtLucOlPz03X1y2yIbzIvHzbJcvEmdoDB2H16ZvuX4LY18uxR8Hn4pe7UhJIz-vohNrvxkjaeBejsJU4_HXtG9TXjQVWrUbtXQunpiPCvSaX93FaMRi-WJBU7YvjH-pgrujQ=s200"/></a></div>
+          <h3>PDF Maker</h3>
+          <button onclick="sandipk()">Read More</button>
+<script>
+    var z="this is world <br/>";
+ 
+    var x="";
+    function sandipk(){
+        document.open();
+        document.write('<h1>Download</h1>');
+        document.write("<img src='https://blogger.googleusercontent.com/img/a/AVvXsEjN2nWUR8zrABgOhcIcREejtChEM0wpAowhUZExxHXOnJHRN5ZLaHlsbwbifYwJWJlkwtAajxdCnsxr9ZTXFQV2UUYGeU7BKywSpUyQleX76oYx_3jnwA19BIKbKP0_x9JqTC8zqPX4hKWk7Puo0zcB3g8782IEeGJi8hlTHKdKhxxnZPVs6JTpWSSe' width='100%;' hight='300px;'/><br/>");
+        document.write("<button><h2><a href='https://play.google.com/store/apps/details?id=com.adobe.scan.android&hl=en_IN&gl=US' style='text-align:center;'>Download Mobile Version</a></h2></button>");
+        document.write(x);
+        document.close();
+    }
+  
+</script>
+        </div>
+         <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhcy7RQklqgGGCSbkz0YQ4_MxBEBQK47qDi8DOHVn7WeNbmfuvqBCujScS6g5VAejcIacvZHX0gk5Y-7P7HC8vS0tdWZN7xkeS16OVLSHTAG9ArS1u759JjL9ZpuoEkq8QQA8MNKpdD-s4CmYyHhhexdWvzbInbD954ElPCpOPSRYJuT_qS6X31GJL4=s512" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="250" data-original-width="512" src="https://blogger.googleusercontent.com/img/a/AVvXsEhcy7RQklqgGGCSbkz0YQ4_MxBEBQK47qDi8DOHVn7WeNbmfuvqBCujScS6g5VAejcIacvZHX0gk5Y-7P7HC8vS0tdWZN7xkeS16OVLSHTAG9ArS1u759JjL9ZpuoEkq8QQA8MNKpdD-s4CmYyHhhexdWvzbInbD954ElPCpOPSRYJuT_qS6X31GJL4=s200"/></a></div>
+           <h3>PDF Maker</h3>
+           <button><a href='https://play.google.com/store/apps/details?id=com.cv.docscanner&hl=en_IN&gl=US' style='text-align:center;'>Click Here</a></button>
+        </div>
+         <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgpNPYjHVhlShRNwzh6YCSBg9gvf62VCAS2naIO4_V0QqAshCxjroLruPbb3tzqeCBPeSGF37vqc9zn8VAZ1nHkybaBdzxjBY_nZhlkx3FCfZuBc0iMAnHZm3dK--gQjekiqR3hKZlnHmb-G2xG9mGJ_Oe4pXGEFbOnnYgWjCKS8eQgqWDyUvDedYS7=s1200" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="717" data-original-width="1200" src="https://blogger.googleusercontent.com/img/a/AVvXsEgpNPYjHVhlShRNwzh6YCSBg9gvf62VCAS2naIO4_V0QqAshCxjroLruPbb3tzqeCBPeSGF37vqc9zn8VAZ1nHkybaBdzxjBY_nZhlkx3FCfZuBc0iMAnHZm3dK--gQjekiqR3hKZlnHmb-G2xG9mGJ_Oe4pXGEFbOnnYgWjCKS8eQgqWDyUvDedYS7=s200"/></a></div>
+           <h3>PDF Converter</h3>
+           <button><a href='https://www.ilovepdf.com/compress_pdf' style='text-align:center;'>Click Here</a></button>
+  </div>
+         <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiFi6Wxf_wc4823s7F-UxTBSAjQS-5n85B7JWlwg-Y-ylEO1Eeruanqvl50-TrxITarAbBZKBdgyAW0CseZ3G3k6DdlfDW_ozav7qAeCWSfn89RnjZnchBF8RYhqM-8pp5jXn3G-XqhN-A1DX3ZWozXf-9Mu_9y72e42V9AkSyOt_Js2jSzin4Pf2Z5=s1280" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEiFi6Wxf_wc4823s7F-UxTBSAjQS-5n85B7JWlwg-Y-ylEO1Eeruanqvl50-TrxITarAbBZKBdgyAW0CseZ3G3k6DdlfDW_ozav7qAeCWSfn89RnjZnchBF8RYhqM-8pp5jXn3G-XqhN-A1DX3ZWozXf-9Mu_9y72e42V9AkSyOt_Js2jSzin4Pf2Z5=s200"/></a></div>
+           <h3>PDF Converter</h3>
+           <button><a href='https://www.adobe.com/in/acrobat/online/compress-pdf.html' style='text-align:center;'>Click Here</a></button>
+        </div>
+   </div>
+    <hr/>
+    <!---car me  Creating and reducing PDF size--->
+  <h3 style="background-color:blue; color:white;">Background Remover  and Online reducing PDF size</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY8QHop3slMFi27-NKZZH5vwKOd_j0lY0mQcoEalxa52DDY60HWdQyOez5lDkp1nv-CvU58rcAMny642lXaNwrvvWxwPnrZJz_YIJx_tmh7xaTUX46YFFFnuyyQgxFg4ekujMsGrr7uOPQ7gQLnRlzkd8WUJeoZDhZGyHvgs_v_wtnQvzLm3rNQctT/s402/Captureh.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="200" data-original-height="402" data-original-width="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiY8QHop3slMFi27-NKZZH5vwKOd_j0lY0mQcoEalxa52DDY60HWdQyOez5lDkp1nv-CvU58rcAMny642lXaNwrvvWxwPnrZJz_YIJx_tmh7xaTUX46YFFFnuyyQgxFg4ekujMsGrr7uOPQ7gQLnRlzkd8WUJeoZDhZGyHvgs_v_wtnQvzLm3rNQctT/s200/Captureh.JPG"/></a></div>
+          <button><a href="https://www.remove.bg/"> Click Here</a></button>
+        </div>
+        <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNjxA2UmpE9_S5ShkeFYHTDluKbgZWoCm-Oo9m7axdEi2GptUNueNIGVl6GvzejiKnLWi3nHQYmpRsNEWkwMcMWPunBV1Nh38nHog7zo0obInZ9L4iUrOXvqNwjT6_O-IliYEMWUzZYns72s4UtLrdCKynWz9HipjvUq2tOiFa4HfClmJXq_l4QD88/s672/dfg-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="200" data-original-height="402" data-original-width="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNjxA2UmpE9_S5ShkeFYHTDluKbgZWoCm-Oo9m7axdEi2GptUNueNIGVl6GvzejiKnLWi3nHQYmpRsNEWkwMcMWPunBV1Nh38nHog7zo0obInZ9L4iUrOXvqNwjT6_O-IliYEMWUzZYns72s4UtLrdCKynWz9HipjvUq2tOiFa4HfClmJXq_l4QD88/s200/dfg-removebg-preview.png"/></a></div>
+          <button><a href="https://www.reduceimages.com/"> Click Here</a></button>
+        </div>
+    </div>
+    
+    
+  <!----car Best Android Emulator for PC-->  
+    <h3 style="background-color:blue; color:white;"> Best Android Emulator for PC</h3>
+      <hr/>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+     <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href=""><img alt="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgwe3D-GNHiZ8sq3qljPh_o6GyvJNJu2re_n-lL12fRweEy5rvTOaGRZFd2sNcOo1EmEkmAki2OlyyvDUCzDvpUO5MMzHvpadLIFGH2m69HHPmhBs70gj0hqg6I2ZfwysAAwt-s8FZUD9oYA4dUlq1E-MmJDY6QH7iwTDJ1rinOXYDvzqgUEBh5InmE/s200/memu.jp" border="0" width="200" height="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgo2YRODASXw9HGOLyt7eXigY9Q7RKVB2rTN1Z7QA1nh0yK6-y82IBFLEdNV0i_Bl_wWrWDGjCupMTbbbv0suObuioK0VcpY4hVq9pPg60YmQ8Iq6vPrjceXPg3hJs7FqB74vzwmoY-zZ2a3JKbHL3HzxjwjRKHgOmi_AmWlInpzWm4H7IWSFamb4J6/s200/memu-removebg-preview.png"/></a></div>
+      <button onclick="sandiaaop()">Click Here</button>
+           <script>
+             function sandiaaop(){
+   window.open("https://www.memuplay.com/" ,"", "width=600px,height=400px, left=100px, top=200px");
+  }
+             </script>
+        </div>
+    </div>
+<!-----car me hi tool--->    
+   <h3 style="background-color:blue; color:white;"> Tools</h3>
+      <hr/>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2ZQlwIwEN3-D1zsh-JUrT_cc3vMXxvFlcJnuWhudckQYK7gX-j5A6u81oylZNxsY1EGcoITBc6xR8BT4xUXcH0Kfh86o6voJwiIciCC2EQU58Lw_gBgljUHZDYIGe3t5s6EJgBgTG7Y4JmjUJSnpe1KZZWnYpOzKi4cPQlo26fpDE6Lgid9TVxkzA/s1280/maxresdefault.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2ZQlwIwEN3-D1zsh-JUrT_cc3vMXxvFlcJnuWhudckQYK7gX-j5A6u81oylZNxsY1EGcoITBc6xR8BT4xUXcH0Kfh86o6voJwiIciCC2EQU58Lw_gBgljUHZDYIGe3t5s6EJgBgTG7Y4JmjUJSnpe1KZZWnYpOzKi4cPQlo26fpDE6Lgid9TVxkzA/s200/maxresdefault.jpg"/></a></div>
+           <h6>Google Input</h6>
+           <button><a href='https://drive.google.com/drive/folders/102zEFb1ZFEja1c3HCBiarUtNUWjCzNnJ?usp=sharing' style='text-align:center;'>Click Here</a></button> 
+      </div>
+       <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjuQYhc6OfsRZFvAFPdJ396PSGQDeMm-izpplaCKMx2vfc_Djfu650JC27iyWklIjJmzPheWq7dNphYltu5DZeHn1N7CWBqJ0ZceOxyvkUx9sqPlXlhIP8SCU6zw1KNkmUyXw7uoO0PEgJUEGjBLQlNiviVn_pig-dkykunjXt9iG5c1Iz56DSkdWh/s303/images.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="166" data-original-width="303" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhjuQYhc6OfsRZFvAFPdJ396PSGQDeMm-izpplaCKMx2vfc_Djfu650JC27iyWklIjJmzPheWq7dNphYltu5DZeHn1N7CWBqJ0ZceOxyvkUx9sqPlXlhIP8SCU6zw1KNkmUyXw7uoO0PEgJUEGjBLQlNiviVn_pig-dkykunjXt9iG5c1Iz56DSkdWh/s200/images.jpg"/></a></div>
+         <h6>Wifi Driver Pc</h6>
+     <button><a href='https://drive.google.com/drive/folders/1bGAJI_n9OM8PLhixsU84WLrKOmFqgRel?usp=sharing' style='text-align:center;'>Click Here</a></button> 
+    </div></div>
+  
+    
+<!---car me youtube link-->    
+    
+   <h3 style="background-color:blue; color:white;">YouTube Video Download</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgTwu_maSIH_4maFXUe8HhkJ--M-VxEfoNtiymRzw1MGoMxmR1o258Wk4ytLnNT-d3XYiiwkXzi3V4c8oxGlxZsA7xTs_gtjFv_zYsKEzMQah592F2Y9cV7iKmEG27CFGU-Rg-Ahf2JJp_5gW2p-Re72V6EwlB1Z_m3dBqRieqZZgkq571Ylgi1SNeU=s910" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="457" data-original-width="910" src="https://blogger.googleusercontent.com/img/a/AVvXsEgTwu_maSIH_4maFXUe8HhkJ--M-VxEfoNtiymRzw1MGoMxmR1o258Wk4ytLnNT-d3XYiiwkXzi3V4c8oxGlxZsA7xTs_gtjFv_zYsKEzMQah592F2Y9cV7iKmEG27CFGU-Rg-Ahf2JJp_5gW2p-Re72V6EwlB1Z_m3dBqRieqZZgkq571Ylgi1SNeU=s200"/></a></div>
+           <button onclick="sandiaa()">Click Here</button>
+           <script>
+             function sandiaa(){
+   window.open("https://y2mate.is/en77/" ,"", "width=600px,height=400px, left=100px, top=200px");
+  }
+             </script>
+        </div>
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjULRvb6iuaEDrMmfQ34h9DH-q6eVZUnAsv7AD9Qs11EPxdFRC9eQHD5fShsrZ5-1jRE8qhhkwwDdyv9-Q6Np5uB8ClrEm7_Nt1owDkN7wkziGrVA36Ty3UfwVOk6uOFnGqtBTpjifRvCrxgAY65e_5PVWx5gO_RIlIyr1d6adYkXF5T1hzUWzWZUa/s200/1.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" idth="200" data-original-height="457" data-original-width="910"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjULRvb6iuaEDrMmfQ34h9DH-q6eVZUnAsv7AD9Qs11EPxdFRC9eQHD5fShsrZ5-1jRE8qhhkwwDdyv9-Q6Np5uB8ClrEm7_Nt1owDkN7wkziGrVA36Ty3UfwVOk6uOFnGqtBTpjifRvCrxgAY65e_5PVWx5gO_RIlIyr1d6adYkXF5T1hzUWzWZUa/s200/1.png"/></a></div>
+      <button onclick="sandiaao()">Click Here</button>
+           <script>
+             function sandiaao(){
+   window.open("https://getx.topsandtees.space/downloader" ,"", "width=600px,height=400px, left=100px, top=200px");
+  }
+             </script>
+        </div>
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhscZlDFSblbfAjOahdNMdmfzCe53gehPnJM0GG0MgotMs3yq6lPO3C3VV2jBe1rV1ebhqIGcGIfQQitKV3oe2CpVYJu-9KOO5Zug1f63xtQLj3v_KP0gORsNqU3CwbW2Z1W3tUS3SpFlRB8G91kswSxs6-Sdem7JDzzDzrUOrEC4cNBFlhEm8YVSIt/s225/images__1_-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="225" data-original-width="225" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhscZlDFSblbfAjOahdNMdmfzCe53gehPnJM0GG0MgotMs3yq6lPO3C3VV2jBe1rV1ebhqIGcGIfQQitKV3oe2CpVYJu-9KOO5Zug1f63xtQLj3v_KP0gORsNqU3CwbW2Z1W3tUS3SpFlRB8G91kswSxs6-Sdem7JDzzDzrUOrEC4cNBFlhEm8YVSIt/s200/images__1_-removebg-preview.png"/></a></div>
+          <button><a href="#">Click Here</a></button>
+        </div>
+    
+    </div>
+  </div>
+          
+ 
+  
+  <!---Phone Software-->
+  <div class="column phone">
+    <div class="content">
+      <h3 style="background-color:blue; color:white;">Phone Software</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+       <div class="w3-quarter"> 
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgksTe7FdVL-OjOSJ9AyDbxZr9T5x8hjLkSFUrupucowd_LtTTIF6ePLb1D3VKPhwsWjbRSI879LvL1AyCkoN_1hUwHw0WvgZ0-m8f9y4h11MuEwLyV_jPwwWnb2p0Lyg17VqIJoxALIc-L2AxhV2Nwpj8B9YNz8c_0caAmJnMN7GJYz58pOZo_yhB7/s200/1.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgksTe7FdVL-OjOSJ9AyDbxZr9T5x8hjLkSFUrupucowd_LtTTIF6ePLb1D3VKPhwsWjbRSI879LvL1AyCkoN_1hUwHw0WvgZ0-m8f9y4h11MuEwLyV_jPwwWnb2p0Lyg17VqIJoxALIc-L2AxhV2Nwpj8B9YNz8c_0caAmJnMN7GJYz58pOZo_yhB7/s200/1.png"/></a></div>
+         <p>Pixel</p>
+         <button><a href="https://play.google.com/store/apps/details?id=com.pixlr.express">Downloud</a></button>
+        </div>
+       <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUfpAzGS0HH77_frBOmmjL-s3iaCOcENuEU8bhvDccSTm5NFrDM6Nkd6S5wjju8Bpukrf4DHGBkelcopVOWO4bp1J2qhcEAXI4aBU_OIG9tEmqzGjEhGPTTWrfu2t_WVeC2dJu7Rh6igz-3H8p0772Qoct222qto-kyaUG_kLMrOwuHNg2a1lYVzAY/s200/vv.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUfpAzGS0HH77_frBOmmjL-s3iaCOcENuEU8bhvDccSTm5NFrDM6Nkd6S5wjju8Bpukrf4DHGBkelcopVOWO4bp1J2qhcEAXI4aBU_OIG9tEmqzGjEhGPTTWrfu2t_WVeC2dJu7Rh6igz-3H8p0772Qoct222qto-kyaUG_kLMrOwuHNg2a1lYVzAY/s200/vv.png"/></a></div>
+         <p>VPN Other Server</p>
+         <button><a href="https://www.vpngate.net/en/">Click Hare</a></button>
+        </div>
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzIqk0K6mx-sa6BOInLWZjElheTvLDmyE1VjBtnS6zDgp9CqfcbkEU8W0H5IYDdE779IHtyB_Y1Yvo6uYSXOLtsyK6WPzChtc0EljgjwmAdeSb-wIZRpKMQI1qRmnLnxgRHD0TVdPxgnF3LY-eW_NqxQLqt08OYfz3o-_XnAsQrpmFOaM3grK_Ukvw/s200/vomos.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzIqk0K6mx-sa6BOInLWZjElheTvLDmyE1VjBtnS6zDgp9CqfcbkEU8W0H5IYDdE779IHtyB_Y1Yvo6uYSXOLtsyK6WPzChtc0EljgjwmAdeSb-wIZRpKMQI1qRmnLnxgRHD0TVdPxgnF3LY-eW_NqxQLqt08OYfz3o-_XnAsQrpmFOaM3grK_Ukvw/s200/vomos.png"/></a></div>
+        <p>VMOS-Virtual Android on Android</p>
+         <button><a href="https://www.vmos.com/">Click Hare</a></button>
+        </div>
+         <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb32wQ7Hg2ThI4JDWjxc7_3-o9DOmT--7UwwCxhyGacCELamQ3T1BgGsWHRCsdWzFqtPqXmyqD5GVKkMp5PwgouKJDoCW8LHpJWtBIULJBH90YT55I9SvJTsYW1cwYRz3CDzcKHtHWRDGno9fsLX5mJKGcJ-DVO2q8GM1y7UCmnp1prntk3zZ_5e8e/s200/es.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb32wQ7Hg2ThI4JDWjxc7_3-o9DOmT--7UwwCxhyGacCELamQ3T1BgGsWHRCsdWzFqtPqXmyqD5GVKkMp5PwgouKJDoCW8LHpJWtBIULJBH90YT55I9SvJTsYW1cwYRz3CDzcKHtHWRDGno9fsLX5mJKGcJ-DVO2q8GM1y7UCmnp1prntk3zZ_5e8e/s200/es.png"/></a></div>
+           <p>ES File Explorer Manager PRO</p>
+         <button><a href="https://an1.com/2570-es-file-explorer-manager-pro.html">Click Hare</a></button>
+        </div>
+      </div>
+   
+    <!---Phone software part2-->
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+       <div class="w3-quarter"> 
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGB4HSBdfRu_9e9y6ZKWF5IxgqpGFiRyLpG0Vza1kWMHVUOZyp2qNcner_00Ywtp3D2DJnTUKIYgfF2WCYVywURTLdq0anf0YjgZQp5VeUxCyfxPWF2UtzYMm5y9isaVVwzr8RCcvSqmCng3Yo517j4yzYFHN8xykpx_7UAgHZA0oHXIhKmXsAu2yg/s200/air%20pod.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjGB4HSBdfRu_9e9y6ZKWF5IxgqpGFiRyLpG0Vza1kWMHVUOZyp2qNcner_00Ywtp3D2DJnTUKIYgfF2WCYVywURTLdq0anf0YjgZQp5VeUxCyfxPWF2UtzYMm5y9isaVVwzr8RCcvSqmCng3Yo517j4yzYFHN8xykpx_7UAgHZA0oHXIhKmXsAu2yg/s200/air%20pod.png"/></a></div>
+         <p>PodsBattery - AirPods</p>
+         <button><a href="https://play.google.com/store/apps/details?id=com.yugongkeji.podstool">Click Hare</a></button>
+         
+        </div>
+        <div class="w3-quarter"> 
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSQ5Esr6pfUhQnPDTU2H3nmUTOptH3ZC3kwqEPmYF6SBSNIiyf_KXou35SUpcd_GhaaiQjz1vHVvd9qRUrWQ8-VDnKWp5TL8sn84ZPaW7i-vWYO4RG53sz03jNP0zOUuaoPaVmZdYL2R-xzGrsgHXiHPw4yQ8F4GhVCKDfFjDF7eVxPTiyBwbm88Fz/s200/ssd.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="100" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSQ5Esr6pfUhQnPDTU2H3nmUTOptH3ZC3kwqEPmYF6SBSNIiyf_KXou35SUpcd_GhaaiQjz1vHVvd9qRUrWQ8-VDnKWp5TL8sn84ZPaW7i-vWYO4RG53sz03jNP0zOUuaoPaVmZdYL2R-xzGrsgHXiHPw4yQ8F4GhVCKDfFjDF7eVxPTiyBwbm88Fz/s200/ssd.png"/></a></div>
+         <p>Inshorts (News summary )</p>
+         <button><a href="https://play.google.com/store/apps/details?id=com.nis.app">Click Hare</a></button>
+         
+        </div>
+        <div class="w3-quarter"> 
+         <p>ES File Explorer Manager PRO</p>
+         <button><a href="https://an1.com/2570-es-file-explorer-manager-pro.html">Click Hare</a></button>
+         
+        </div>
+        <div class="w3-quarter"> 
+         <p>ES File Explorer Manager PRO</p>
+         <button><a href="https://an1.com/2570-es-file-explorer-manager-pro.html">Click Hare</a></button>
+         
+        </div>
+      </div></div>
+  </div>
+  
+  
+  
+  
+  <!--- <button><a href="">Downloud</a></button>-->
+  <div class="column live">
+    <div class="content">
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmZ87IfmJUAUjA0I-dSEwwMs4uPAAhGJcTEi1onKmnqjyd9O5a3jGjREAEJrY6gmvacKhiJmqtunExUQxF4zB-Otm0x_9e2FgikkQxcPK7HNl9CBINsJGHyjmYUwPrlNIs5_6P0ubCGJO2BrmeSrKDB4Tp5HqOYeCK55lH3UI9jnZbYcbZ4usgcB1d/s850/Live-Streaming%20%281%29.webp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="320" data-original-height="377" data-original-width="850" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmZ87IfmJUAUjA0I-dSEwwMs4uPAAhGJcTEi1onKmnqjyd9O5a3jGjREAEJrY6gmvacKhiJmqtunExUQxF4zB-Otm0x_9e2FgikkQxcPK7HNl9CBINsJGHyjmYUwPrlNIs5_6P0ubCGJO2BrmeSrKDB4Tp5HqOYeCK55lH3UI9jnZbYcbZ4usgcB1d/s320/Live-Streaming%20%281%29.webp"/></a></div>
+          <button><a href="https://rnsandipsurya.blogspot.com/2023/04/YouTube Live Streams.html">Click Here</a></button>
+            </div>
+      </div>
+    </div>
+  </div>
+            
+  
+  <div class="column web">
+    <div class="content">
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU5Hvs8t7FmHJobUhnXD7bPb0LpxegR0Eg4w86Nt6UKmIftEgoO5wyE9v2jJRElbGhIJoWnbk-oAhs26-SlEc7jpyIObgpBYmHaYXstA31qFAFYedOkAtTerVyEm6daoe2Mq-uC-50ul1uhBrtNpCpul3_mj5rTs5AMxuNixXAlfcpFTuKod5aTkLS/s341/Capture.PNG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="320" data-original-height="270" data-original-width="341" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjU5Hvs8t7FmHJobUhnXD7bPb0LpxegR0Eg4w86Nt6UKmIftEgoO5wyE9v2jJRElbGhIJoWnbk-oAhs26-SlEc7jpyIObgpBYmHaYXstA31qFAFYedOkAtTerVyEm6daoe2Mq-uC-50ul1uhBrtNpCpul3_mj5rTs5AMxuNixXAlfcpFTuKod5aTkLS/s320/Capture.PNG"/></a></div>
+          <h2>Google Drive (Web Hosting)</h2>
+          <button><a href="https://www.drv.tw/">Click Here</a></button>
+            </div>
+          
+          <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://www.drv.tw/" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="320" data-original-height="477" data-original-width="598" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_i0OprRGp_C-wYRTsqNVZ16_kUPm4ufMz0FwMOapEr1_0Inavh1hAMCmOtv-Az_PR_UJa1tI6UXfjHg6yFfxkeMwos4ubQww5ZnVVIKa3DkXr_oJYrl0Gqoi3tJAKVNx6smUsR6lMkmFSfKCXRVh7G1WrMr4_uPlRoe2VgFHU_9-t0GSN2W80_GkF/s320/host-blogger-javascript-css-files-externally-using-google-drive.png"/></a></div>
+            <h2>Google Drive (CSS, Javascript and Other)</h2>
+          <button><a href="https://drive.recmail.net/">Click Here</a></button>
+            </div>
+      </div>
+    </div>
+  </div>
+            
+  
+  
+  
+  
+
+  <div class="column people">
+    <div class="content">
+        <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBWUMUbBL0p7FBtZNFQ7l70xC-ZpTG0DbH0mj6nuIvhtUCaffQn8-GkoeiCt4FbO8CrN8fHBNTquZ6zNJ6WwIOQRGHfRWOpzx5S8uYtFJW0ytAfk7FFtjjljQy4E-52PGSgdlDrFjLJsoUkgUYfkolZEFy8Yz8uJui1UOcvBaqoecUAj11Mb3oIskf/s256/cpu-z-icon-x95uvzcjo065xrpv-c-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBWUMUbBL0p7FBtZNFQ7l70xC-ZpTG0DbH0mj6nuIvhtUCaffQn8-GkoeiCt4FbO8CrN8fHBNTquZ6zNJ6WwIOQRGHfRWOpzx5S8uYtFJW0ytAfk7FFtjjljQy4E-52PGSgdlDrFjLJsoUkgUYfkolZEFy8Yz8uJui1UOcvBaqoecUAj11Mb3oIskf/s200/cpu-z-icon-x95uvzcjo065xrpv-c-removebg-preview.png"/></a></div>
+        
+    <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://www.cpuid.com/softwares/cpu-z.html"><span style="color:white">CLICK Here (Cpuz)</span></a></button>
+      </div>
+    
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObell3Vz41AHo1ZDBH3JZF8Y_bD78faPkA3rclaD552Pc2pyJqveaCgAmPPZbg3oP0ymQgEsZ1HRp4JEpCQ2SxXcbcPG0NZZLafH-0ZHg_kXTBGGedfZAEqGv69WwHbYBgTLyiKh2pEUUhvvYcvyO9vH0wusx7NEoveAdoavbFR-p9dJeKIRIhkfe/s256/vm.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgObell3Vz41AHo1ZDBH3JZF8Y_bD78faPkA3rclaD552Pc2pyJqveaCgAmPPZbg3oP0ymQgEsZ1HRp4JEpCQ2SxXcbcPG0NZZLafH-0ZHg_kXTBGGedfZAEqGv69WwHbYBgTLyiKh2pEUUhvvYcvyO9vH0wusx7NEoveAdoavbFR-p9dJeKIRIhkfe/s200/vm.png"/></a></div>
+          
+    <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://rnsandipsurya.blogspot.com/2022/01/vmware-workstation.html"><span style="color:white">CLICK Here (Vmware)</span></a></button>
+      </div>
+      
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNBWjMZ7ZNOL-n6BNzhLLyj4zj8lQyC9rwuAkDUYo2MRF0DnCSAvshoMYZvTZWgozkK3eNKY7XcwDlH42S5jNUwN1oixcYa7gCxy5ZFpmQOECQOy7H2lBAqFma7KYK73Wh-nWYmKv82fHUSqBZyAKqifXrUioS6JzpExzH1mEl9IQjKLRPSfD36X6q/s550/ookla-speed-test-desktop-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="200" data-original-height="550" data-original-width="453" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNBWjMZ7ZNOL-n6BNzhLLyj4zj8lQyC9rwuAkDUYo2MRF0DnCSAvshoMYZvTZWgozkK3eNKY7XcwDlH42S5jNUwN1oixcYa7gCxy5ZFpmQOECQOy7H2lBAqFma7KYK73Wh-nWYmKv82fHUSqBZyAKqifXrUioS6JzpExzH1mEl9IQjKLRPSfD36X6q/s200/ookla-speed-test-desktop-removebg-preview.png"/></a></div>
+         
+            <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://www.speedtest.net/"><span style="color:white">CLICK Here (Net speed check)</span></a></button>
+    </div>
+    
+    
+    
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOSfUv0Vgtiuza_PXghkkEdmloc8kNTsmIxKIrDrca7xy60DzYWJe09MRb5eVYF7kdg9l185X-1ihaow5JbqDGRUgE-IwLvR55xwmK1JB-L82sUSi_eS0sQK12guS_gdanPR8sv2ZYCeH2b0Sl5lxv4a50T4Wc6mYdXivk3P25qY5KGGl5E2psVRqy/s300/9176426e1cd6213d9506e2b943e1708e-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="300" data-original-width="300" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOSfUv0Vgtiuza_PXghkkEdmloc8kNTsmIxKIrDrca7xy60DzYWJe09MRb5eVYF7kdg9l185X-1ihaow5JbqDGRUgE-IwLvR55xwmK1JB-L82sUSi_eS0sQK12guS_gdanPR8sv2ZYCeH2b0Sl5lxv4a50T4Wc6mYdXivk3P25qY5KGGl5E2psVRqy/s200/9176426e1cd6213d9506e2b943e1708e-removebg-preview.png"/></a></div>
+            
+     <button style=" padding: 1px -2px 5px 4px;
+                         background-color: currentcolor;"><a href="https://rufus.ie/en/"><span style="color:white">CLICK Here</span></a></button>
+    </div>
+    </div>
+      
+        <h3 style="background-color:blue; color:white;">FINGERPRINT SOFTWARE ( COMPUTER)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+   <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiMknYu3RwobeXMxNzylA14ZdBMd0bYae86yzXfvtRvnvSaipnSosJy_eEihOUy8VUs8FrKSrpn4yZHTohV0yDGiKkKjB7JApTp6h1RiedA4vsJ_cmXa8goALI9jiOkgFhmP0shOeVIuADbj8UqbrPNuFPuqStgozZbslLYm3HlDt7OuH2EfelBujGG=s440" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="320" data-original-height="257" data-original-width="440" src="https://blogger.googleusercontent.com/img/a/AVvXsEiMknYu3RwobeXMxNzylA14ZdBMd0bYae86yzXfvtRvnvSaipnSosJy_eEihOUy8VUs8FrKSrpn4yZHTohV0yDGiKkKjB7JApTp6h1RiedA4vsJ_cmXa8goALI9jiOkgFhmP0shOeVIuADbj8UqbrPNuFPuqStgozZbslLYm3HlDt7OuH2EfelBujGG=s320"/></a></div>
+   <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://rdserviceonline.com/"><span style="color:white">Click Here</span></a></button></div>
+   <div class="w3-quarter">
+     <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhRUG-Qu1BzZZGGfXyl5VjTtTWx3LI2K7O-9QPZoXB4QL_D1qs1WJ0ZN081eZa-KqD2Ty4zF3S8-x0Z3tB1nKNFgd8UXMrg3lf5ZjD880Xlk0QRjVNu_lwM7YcmFVBX0aqkdhD83KfcydxzQgPVpv_qpUnfpgIBJ5_eaOjXH4QbwqDw1B0AWHn-EtzS=s416" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="401" data-original-width="416" src="https://blogger.googleusercontent.com/img/a/AVvXsEhRUG-Qu1BzZZGGfXyl5VjTtTWx3LI2K7O-9QPZoXB4QL_D1qs1WJ0ZN081eZa-KqD2Ty4zF3S8-x0Z3tB1nKNFgd8UXMrg3lf5ZjD880Xlk0QRjVNu_lwM7YcmFVBX0aqkdhD83KfcydxzQgPVpv_qpUnfpgIBJ5_eaOjXH4QbwqDw1B0AWHn-EtzS=s200"/></a></div>
+  <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://download.mantratecapp.com/forms/downloadfiles"><span style="color:white">Click Here</span></a></button></div></div>  
+   <h3 style="background-color:blue; color:white;">Remote Connectivity(Software)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+    <div class="w3-quarter">
+     <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgA8pCbn7URVR-1axtjkZOTddqyDR3FBG9s3yBS9PN8YPnIB9alI8cLqdDvSBotwcRRz_OwSnl0lHSavehW-RWPEOGliulIS2QvCf2leqWOF8QFe-cO0bKjCJ7reFsQB-BflZiBzGcgZumy0vLgijVIEB11XEhyNtbJxEcCIuc_035hMe4VbHL7eUXy=s256" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256" src="https://blogger.googleusercontent.com/img/a/AVvXsEgA8pCbn7URVR-1axtjkZOTddqyDR3FBG9s3yBS9PN8YPnIB9alI8cLqdDvSBotwcRRz_OwSnl0lHSavehW-RWPEOGliulIS2QvCf2leqWOF8QFe-cO0bKjCJ7reFsQB-BflZiBzGcgZumy0vLgijVIEB11XEhyNtbJxEcCIuc_035hMe4VbHL7eUXy=s200"/></a></div>
+       <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://www.teamviewer.com/en-us/"><span style="color:white">Click Here</span></a></button></div>
+       <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEh0AZlwvZnv0jxQ74wCuiGIZyIVU4jYyupe7niNW84Y2c7hBRxw8pSwHsfQz0QpIgBu2yb5fTKyh0FXfiHU0jz2iXZMOtklWFovfh5AaTYdVPsz7HbJFDu0X5rHHcOXtqOKM8BXiElG53YRxdgdUBuFfALQ4DUvl0zL70woDj_l0DouqvLPMTatQQ54=s200" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256"src="https://blogger.googleusercontent.com/img/a/AVvXsEh0AZlwvZnv0jxQ74wCuiGIZyIVU4jYyupe7niNW84Y2c7hBRxw8pSwHsfQz0QpIgBu2yb5fTKyh0FXfiHU0jz2iXZMOtklWFovfh5AaTYdVPsz7HbJFDu0X5rHHcOXtqOKM8BXiElG53YRxdgdUBuFfALQ4DUvl0zL70woDj_l0DouqvLPMTatQQ54=s320"/></a></div>
+           <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://anydesk.com/en"><span style="color:white">Click Here</span></a></button></div>
+        <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjBl2J8976gDERUS3kbYgYL3LTaKzB1O4Sjx13nAH9FK8lgvr-KZmb2Pf5fCMscM09QDa4E9bUozla-Qkw-Ti62xRoNJMM9TS0CkRIANWq0fkw6JgGWFIrfsMgrYzgyfpsfa3xAVzf5IA21U14ryeSw5Y_WzXx7yzkLtJkdo9pinVhiHz32_pnqAXK2=s358" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="320" data-original-width="358" src="https://blogger.googleusercontent.com/img/a/AVvXsEjBl2J8976gDERUS3kbYgYL3LTaKzB1O4Sjx13nAH9FK8lgvr-KZmb2Pf5fCMscM09QDa4E9bUozla-Qkw-Ti62xRoNJMM9TS0CkRIANWq0fkw6JgGWFIrfsMgrYzgyfpsfa3xAVzf5IA21U14ryeSw5Y_WzXx7yzkLtJkdo9pinVhiHz32_pnqAXK2=s200"/></a></div>
+          <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://www.partitionwizard.com/free-partition-manager.html"><span style="color:white">Click Here</span></a></button></div></div>    
+    <h3 style="background-color:blue; color:white;">
+    Screen Recorder(Software)</h3>
+      <hr/>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+   <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhbSYg3NkOFbHR_y_gelY1GXu_hfckOnifqDHsg3XbrwyjGwDSXUyVrMADfWkY7YFbpDNMMN5zigoLKvDEl2m0Rmax4ZmCX_qEZysN4d4QHrVhdxVFx3gmbEY-dfa54uPrbTtQ-CQkA6to0IFM7Hc0uJk-7wT3KcWrrUwjLcPB_P9bWQ3BAVFV-1Gj7=s256" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="218" data-original-width="256" src="https://blogger.googleusercontent.com/img/a/AVvXsEhbSYg3NkOFbHR_y_gelY1GXu_hfckOnifqDHsg3XbrwyjGwDSXUyVrMADfWkY7YFbpDNMMN5zigoLKvDEl2m0Rmax4ZmCX_qEZysN4d4QHrVhdxVFx3gmbEY-dfa54uPrbTtQ-CQkA6to0IFM7Hc0uJk-7wT3KcWrrUwjLcPB_P9bWQ3BAVFV-1Gj7=s200"/></a></div>
+  <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://download.cnet.com/Apowersoft-Free-Screen-Recorder/3000-13633_4-75959899.html"><span style="color:white">Click Here</span></a></button></div>
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjeNir2btqzjrvuY_-uNlXRfGSufc6L0eMjMpntckJhEW50xhS_UI3K_cbpfQ1HOaNPyohqLlbabA40-FkLuigGEivPwCpmRVGOm2CEfSg5Hyrn51v49sbFu-CBFNRwBmnPtYrrHnmmcinUNMDqIM4v3vh654r_9gHVge28q1MzUKOHY36akrh_z3zE=s256" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="218" data-original-width="256" src="https://blogger.googleusercontent.com/img/a/AVvXsEjeNir2btqzjrvuY_-uNlXRfGSufc6L0eMjMpntckJhEW50xhS_UI3K_cbpfQ1HOaNPyohqLlbabA40-FkLuigGEivPwCpmRVGOm2CEfSg5Hyrn51v49sbFu-CBFNRwBmnPtYrrHnmmcinUNMDqIM4v3vh654r_9gHVge28q1MzUKOHY36akrh_z3zE=s200"/></a></div>
+    <button style=" padding: 1px -2px 5px 4px; background-color: currentcolor;"><a href="https://www.apowersoft.com/free-online-screen-recorder"><span style="color:white">Click Here</span></a></button></div></div>
+    </div>
+   </div>
+  </div>
+<!--END GRID-->
+</div>
+
+<!--END MAIN-->
+</div>
+
+<script>
+filterSelection("people")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+  
+ <!-- <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+     
+    <div class="w3-quarter">-->
+      
+      
+      
