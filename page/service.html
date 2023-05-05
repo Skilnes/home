@@ -1,0 +1,549 @@
+
+
+<style>
+    .header-section{
+      display:none;
+    }
+    .big-feature-section {
+       display:none;
+    }
+    .features-section{
+      display:none;
+    }
+    .companies-section{
+       display:none;
+    }
+  </style>
+  
+  <head>
+  <link href="https://www.w3schools.com/w3css/4/w3.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karma" rel="stylesheet">
+  </head>
+  
+  <style>
+  
+  .row {
+    margin: 10px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 100%;
+    display: none; 
+    border:2px solid blue;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  .btn.active {
+    background-color: #666;
+    color: white;
+  }
+  </style>
+  
+  
+  
+  <!--MAIN (Center website)ji-->
+  <div class="main">
+  
+  <div id="myBtnContainer">
+    <button class="btn active" onclick="filterSelection('people')">Govt Service</button>
+     <button class="btn" onclick="filterSelection('sandip')">Delhi Service</button>
+    <button class="btn" onclick="filterSelection('nature')"> Bihar Service</button>
+     <button class="btn" onclick="filterSelection('haryana')"> Haryana Service</button>
+    <button class="btn" onclick="filterSelection('cars')"> Banking Service</button>
+    
+  </div>
+  
+  <!--Portfolio Gallery Grid-->
+  <div class="row">
+   <div class="column sandip">
+      <div class="content">
+      <h3 style="background-color: blue; color: white;">DELHI </h3><hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+     <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjqVAg6gNNz1h9olf2WOCRot285Uud3JhlizsoYXig2aSFk0SUeiZdnUMjUphlE0rcoA9-CsY_I9bxYbDNFLoc2buBUnfjBy2oPt0WhLSeM4Q3oBNLx_Y9ybAn0_ivpMePFNwNCnS3aO0vaCct6u4lSmxjZF9q7KLXfh0LxNKDLovjatUWbjjdyIJ8w" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEjqVAg6gNNz1h9olf2WOCRot285Uud3JhlizsoYXig2aSFk0SUeiZdnUMjUphlE0rcoA9-CsY_I9bxYbDNFLoc2buBUnfjBy2oPt0WhLSeM4Q3oBNLx_Y9ybAn0_ivpMePFNwNCnS3aO0vaCct6u4lSmxjZF9q7KLXfh0LxNKDLovjatUWbjjdyIJ8w" width="200" /></a></div>
+      <button><a href="https://rnsandipsurya.blogspot.com/2022/01/labour-card-delhi.html" target="_blank">Click Here</a></button>
+      </div>
+      
+       <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhWoYyjw6qFr04y3ND7VKYLziaGyiy35ArND8tv4AG0slSmL92iZ9WbigYwZWBoTM9_44-C056kDbIg7dsmTNpSTMPchQ-4H8eXVzCM6YfN_WBKDtBPDZXM5XMhE1ywybMiOzYxxCa_JdYqzBcAjXxRNI4zFEBBLZWb-d8tYExaFDfw0uf7_41SrpKw=s1280" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEhWoYyjw6qFr04y3ND7VKYLziaGyiy35ArND8tv4AG0slSmL92iZ9WbigYwZWBoTM9_44-C056kDbIg7dsmTNpSTMPchQ-4H8eXVzCM6YfN_WBKDtBPDZXM5XMhE1ywybMiOzYxxCa_JdYqzBcAjXxRNI4zFEBBLZWb-d8tYExaFDfw0uf7_41SrpKw=s200"/></a></div>
+  <button><a href="https://www.bsesdelhi.com/web/bses" target="_blank">Click Here</a></button>
+     </div>
+    </div>
+     </div></div>
+    
+  
+  
+     <div class="column haryana">
+      <div class="content">
+        <h3 style="background-color: blue; color: white;">HARYANA </h3>
+    <hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+  <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8v4chGKgWNY87jZ5BwedW3VlR-yeEhTgwLHpH1DhfJZK5SbSQ0H3hwjrpi4HQcXGEiA6VCkZSH_D_o0YY-nJdNbJPbuIYEljs2pg24PfGe1HvnmeJXoWCFAhVhCoA9nQVW2Ka1U4HVYnaaWHbt_6mqqIXE_ufyLFedtAfaVf-u5ICPb8ztMGesbWG/s507/d.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="485" data-original-width="507" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8v4chGKgWNY87jZ5BwedW3VlR-yeEhTgwLHpH1DhfJZK5SbSQ0H3hwjrpi4HQcXGEiA6VCkZSH_D_o0YY-nJdNbJPbuIYEljs2pg24PfGe1HvnmeJXoWCFAhVhCoA9nQVW2Ka1U4HVYnaaWHbt_6mqqIXE_ufyLFedtAfaVf-u5ICPb8ztMGesbWG/s200/d.JPG"/></a></div>
+  
+    <h3 style="text-align:center;"><strong>Dakshin Haryana Bijli</strong> </h3>
+              <script>
+            function rnking(){
+                document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">All links</h4><br/><hr/>');
+                  document.write('<button><a href="https://www.dhbvn.org.in/web/portal/home">Dakshin Haryana Bijli(DHBVN) </a></button><br/></br></br><hr/>');
+              document.write('<button><a href="https://saralharyana.gov.in/">Track Your Service Online Haryana Bijli(DHBVN) </a></button><br/><br/><hr/>'); 
+              document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>'); 
+                
+            }
+        </script>
+           
+         <p style="text-align:center;"><button onclick="rnking()">Read More</button></p>
+      </div>
+     <div class="w3-quarter">
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi11ZOuQD9ZQYv8mnLRzXyhlY3xg9hU3ZlD9h4D07vLoCkjgkiaX_pMd-xzm3dSXKuCpXoBB2TTgM6ozJ2ZEpCXVzgpvOrrRr8a8OOAqtOYbOUMQiwoVOC02WabV-N8HpyZLTJhxsi3TViWj82WfRxqBN46tL7l05CIbEjeoyiwNy_T9DrePeLtAKpM/s376/ppp.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="301" data-original-width="376" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi11ZOuQD9ZQYv8mnLRzXyhlY3xg9hU3ZlD9h4D07vLoCkjgkiaX_pMd-xzm3dSXKuCpXoBB2TTgM6ozJ2ZEpCXVzgpvOrrRr8a8OOAqtOYbOUMQiwoVOC02WabV-N8HpyZLTJhxsi3TViWj82WfRxqBN46tL7l05CIbEjeoyiwNy_T9DrePeLtAKpM/s200/ppp.png"/></a></div>
+       <h3 style="text-align:center;"><strong>Family I'd</strong> </h3>
+       <p style="text-align:center;"><button onclick="rnkingg()">Read More</button></p>
+           <script>
+            function rnkingg(){
+               document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">All links</h4><br/><hr/>');
+                  document.write('<button><a href="https://meraparivar.haryana.gov.in/">Parivar Pehchan Patra (PPP) </a></button><br/><br/><hr/>');
+              document.write('<button><a href="https://meraparivar.haryana.gov.in/FamilyDirect">Link -2 </a></button><br/><br/><hr/>');
+               document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');      
+            }
+        </script>
+      </div>
+      
+       <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM9ngdz21xFyPDoM1IlpBUFnVUnlEAXjJddrwWZo3Cr7cVNOCzk9YqYLaTzFzJQEPbniVEAn4e2mmd8whYo7E6YSbean8e0_BZH7wdiHWbyay_QSpamk5mswoTvNXyqWFhMw1sJsuBbWBUwHaGXtuL7n-d9Y5rcZPW5iD5lmhP2eDCXR-uLDzIPdxY/s473/u.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="369" data-original-width="473" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiM9ngdz21xFyPDoM1IlpBUFnVUnlEAXjJddrwWZo3Cr7cVNOCzk9YqYLaTzFzJQEPbniVEAn4e2mmd8whYo7E6YSbean8e0_BZH7wdiHWbyay_QSpamk5mswoTvNXyqWFhMw1sJsuBbWBUwHaGXtuL7n-d9Y5rcZPW5iD5lmhP2eDCXR-uLDzIPdxY/s200/u.JPG"/></a></div>
+       <h3 style="text-align:center;"><strong>All Services(Caste & Other)   </strong> </h3>
+         <p style="text-align:center;"><button onclick="rnkinggh()">Read More</button></p>
+           <script>
+            function rnkinggh(){
+               document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">All links</h4><br/><hr/>');
+                  document.write('<button><a href="https://saralharyana.gov.in/citizenRegistration.html">Saral-Haryana Registration </a></button><br/><br/><hr/>');
+               document.write('<button><a href="https://saralharyana.gov.in/">Saral-Haryana </a></button><br/><br/><hr/>');
+               document.write('<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmDSyDUd9LUNEQpm1g88CCh1sluHRC6ENeLn_1vQHuVbUZ_DPbtOo1td3fMTu3uycadbgw55Nt6bgBdbt2vibenV_pMRup9_pa3I8Lzw0xJWFCnUysXhfu8ZNelxqXW392XTmxuZ3UqWhXerxYbXrLL3V6Hq_QDbkapzClGqT8knsE1EyuaMUXQEQb/s256/arrow_down.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmDSyDUd9LUNEQpm1g88CCh1sluHRC6ENeLn_1vQHuVbUZ_DPbtOo1td3fMTu3uycadbgw55Nt6bgBdbt2vibenV_pMRup9_pa3I8Lzw0xJWFCnUysXhfu8ZNelxqXW392XTmxuZ3UqWhXerxYbXrLL3V6Hq_QDbkapzClGqT8knsE1EyuaMUXQEQb/s200/arrow_down.png"/></a></div><br/>');
+             
+              document.write('<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5j9rxQ19bzYdgKbA4rLKWaKnNby8kaLGiB0-QHV9hpz_VS0NIsR7RTdH9GpkwKvFdv5cI6b8G6liVAlbGT7R7nDn7tqpF1DhbFSrhS3cotXDOy0C-w0XIS8s8Yz_PpNDlxjOIpDN4XNelAR6gQIemCliIYPhYYBoYhNoXFJMsaAZ1qa-vKIvL8pz/s1600/img.JPG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="425"width="100%" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhx5j9rxQ19bzYdgKbA4rLKWaKnNby8kaLGiB0-QHV9hpz_VS0NIsR7RTdH9GpkwKvFdv5cI6b8G6liVAlbGT7R7nDn7tqpF1DhbFSrhS3cotXDOy0C-w0XIS8s8Yz_PpNDlxjOIpDN4XNelAR6gQIemCliIYPhYYBoYhNoXFJMsaAZ1qa-vKIvL8pz/s1600/img.JPG"/></a></div><br/><hr/>');
+              
+              document.write('<button><a href="#">Search Box me (Scheduled Caste Certificate) </a></button><br/><br/><hr/>');
+              document.write('<button><a href="#">Search Box me (Income Certificate) </a></button><br/><br/><hr/>');
+               document.write('<button><a href="#">Search Box me (Haryana Resident Certificate) </a></button><br/><br/><hr/>');
+              document.write('<button><a href="#">Search Box me (Application For Issuance of Birth / Death / Non Availability Certificate (NAC)) </a></button><br/><br/><hr/>');
+               document.write('<button><a href="https://drive.google.com/file/d/1Pd-tk6SXmKD6RFhnNj1L80Lg7IQWsIOy/view?usp=share_link">Downloud (रिहायशी प्रमाण पत्र/ निवास प्रमाण पत्र फॉर्म ) </a></button><br/><br/><hr/>');
+               document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');      
+            }
+        </script>
+      </div>
+      <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoGDVoUk-WDuwVhEZf39qrZ32LmyxnLwlMdOYHTL7oq9gQG8KuFR4yYVEU8F6w1KAqz-DX-hLf97z2CD3c4qDFlIqG_KqfF5otVGgI1ksRJBw1lhfIHMG6p_AiqcPpF2akuCQSO-To9yA-fQMNUPY3VPJxXCZS_Fw7mc9-1TqR7j1ZULp9jQjHVTVx/s1300/haryana-ration-card-image.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="180" data-original-height="1200" data-original-width="1000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoGDVoUk-WDuwVhEZf39qrZ32LmyxnLwlMdOYHTL7oq9gQG8KuFR4yYVEU8F6w1KAqz-DX-hLf97z2CD3c4qDFlIqG_KqfF5otVGgI1ksRJBw1lhfIHMG6p_AiqcPpF2akuCQSO-To9yA-fQMNUPY3VPJxXCZS_Fw7mc9-1TqR7j1ZULp9jQjHVTVx/s200/haryana-ration-card-image.png"/></a></div>
+       <h3 style="text-align:center;"><strong>Ration Card</strong> </h3>
+       <p style="text-align:center;"><button onclick="rnkingg()">Read More</button></p>
+           <script>
+            function rnkingg(){
+               document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">All links</h4><br/><hr/>');
+                  document.write('<button><a href="https://epds.haryanafood.gov.in/">Haryana-Food ( Ration Card) </a></button><br/><br/><hr/>');
+              document.write('<button><a href="https://epds.haryanafood.gov.in/search-rc">Search Ration Card(PPP Se)</a></button><br/><br/><hr/>');
+               document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');      
+            }
+        </script>
+      </div>
+      
+      </div>
+        </div>
+       </div>
+    </div>
+    
+    
+  
+  
+    <div class="column nature">
+      <div class="content">
+        <h3 style="background-color: blue; color: white;">BIHAR </h3>
+    <hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+  
+  <div class="w3-quarter">
+    <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhyKhQ6zL5XVv9v9wWszcA07h0kxMWqTVoWIcth3znFswRQ-OuqPNTHyQ0OSy98I7fxAu7YXd2R7fgAsmTYVnatLKGOx5EgbfnlfltYtYMuIhpj2XfCT77fZSfWIrbIdou87mbSsPda4HIX9c0Lv0zN92AWnYdX8qg2i2mZjA49ypZRgNC10dz4nxZs=s295" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" data-original-height="171" data-original-width="295" src="https://blogger.googleusercontent.com/img/a/AVvXsEhyKhQ6zL5XVv9v9wWszcA07h0kxMWqTVoWIcth3znFswRQ-OuqPNTHyQ0OSy98I7fxAu7YXd2R7fgAsmTYVnatLKGOx5EgbfnlfltYtYMuIhpj2XfCT77fZSfWIrbIdou87mbSsPda4HIX9c0Lv0zN92AWnYdX8qg2i2mZjA49ypZRgNC10dz4nxZs=s200" width="200" /></a></div>
+    <button><a href="https://rnsandipsurya.blogspot.com/2022/05/ration-card-government-of-bihar.html" target="_blank">Click Here</a></button></div>
+      
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEgXgUaZy7tTTgknfnOKUnqkMAfxizBruLwrZlZGaPHUvU2CtrtI7_oxsYzahNRo8l8hli0Zg0o1YyGIJBDWf9MYDRuSax84dINECYbA7NXvLKNWFHv6ehHHDKNLfuxnonz7qDdVLG-eQ0E82T-m-W_cZwQJsp3j5cYI3ti8WR7QgJz6T-1a6ZE74Hvh=s960" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" data-original-height="540" data-original-width="960" src="https://blogger.googleusercontent.com/img/a/AVvXsEgXgUaZy7tTTgknfnOKUnqkMAfxizBruLwrZlZGaPHUvU2CtrtI7_oxsYzahNRo8l8hli0Zg0o1YyGIJBDWf9MYDRuSax84dINECYbA7NXvLKNWFHv6ehHHDKNLfuxnonz7qDdVLG-eQ0E82T-m-W_cZwQJsp3j5cYI3ti8WR7QgJz6T-1a6ZE74Hvh=s200" width="200" /></a></div>
+        <button><a href="https://www.sspmis.bihar.gov.in/" target="_blank">Click Here</a></button></div>
+     <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEj8AS2CbaNHeuFz3osPQ0quk3LSBHsH0LQ9OvL9P14Qyl02nqMds9t4o99B7pbzjiLQt9e4eCDYcnhzeI1CmUHKzu3i87_XicbPhJJKu0Nbv4-lT-LxR49O7B5MGc4IMg_9s5DbjQcUmNX2sVa2nYuQGPT37yRxOEYqbeoDky4yHqIACi50MwiY9w97=s1280" style="display: block; padding: 1em 0; text-align: center;"><img alt="" border="0" data-original-height="720" data-original-width="1280" src="https://blogger.googleusercontent.com/img/a/AVvXsEj8AS2CbaNHeuFz3osPQ0quk3LSBHsH0LQ9OvL9P14Qyl02nqMds9t4o99B7pbzjiLQt9e4eCDYcnhzeI1CmUHKzu3i87_XicbPhJJKu0Nbv4-lT-LxR49O7B5MGc4IMg_9s5DbjQcUmNX2sVa2nYuQGPT37yRxOEYqbeoDky4yHqIACi50MwiY9w97=s200" width="200" /></a></div>
+         <button><a href="https://nbpdcl.co.in/(S(4ae03qlht1ncr3eotz1nybk3))/frmquickbillpaymentall.aspx" target="_blank">Click Here</a></button></div>
+   <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEiP2ID-viF6f4p2TRtZJb_QvVvq1YtV4fxR2QGxV1dwArSA0ZUkjzLFUfX20YloUhRNKzWgDrZrxXWtqAfF64iVH2_XISCj_Qp82vcgsjl8nBt4GgadAdJjoRmcH39SVrevC4ojMUYa8-T5GP7-tkUeeDcZDRYWorL792aE3VKSORdbOFv-Tr_3a_u4=s640" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="360" data-original-width="640" src="https://blogger.googleusercontent.com/img/a/AVvXsEiP2ID-viF6f4p2TRtZJb_QvVvq1YtV4fxR2QGxV1dwArSA0ZUkjzLFUfX20YloUhRNKzWgDrZrxXWtqAfF64iVH2_XISCj_Qp82vcgsjl8nBt4GgadAdJjoRmcH39SVrevC4ojMUYa8-T5GP7-tkUeeDcZDRYWorL792aE3VKSORdbOFv-Tr_3a_u4=s200"/></a></div>
+     <button><a href="https://elabharthi.bih.nic.in/Link1/" target="_blank">Click Here</a></button></div>
+    </div>
+        <hr>
+        
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+  <div class="w3-quarter">  
+    <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhPvHZLMSOsZ7oDpkBVoRmnc8yJJkDrRSGWeZxrrLhdWpH9j5_vPqv7WT_yQpJvcHZM3Q4T5bvCoZlvsMDb2yMvY5xuv8BdiPxoebmksCE4MMdJGVBdBBMl0kDY_oGC6ErNkEzPGigDuI5JkS3zRtKhFAKrnF7AMSYMx3Qe7rOa-eqkpDxcOnd177Pt=s600" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="312" data-original-width="600" src="https://blogger.googleusercontent.com/img/a/AVvXsEhPvHZLMSOsZ7oDpkBVoRmnc8yJJkDrRSGWeZxrrLhdWpH9j5_vPqv7WT_yQpJvcHZM3Q4T5bvCoZlvsMDb2yMvY5xuv8BdiPxoebmksCE4MMdJGVBdBBMl0kDY_oGC6ErNkEzPGigDuI5JkS3zRtKhFAKrnF7AMSYMx3Qe7rOa-eqkpDxcOnd177Pt=s200"/></a></div>
+    <button><a href="https://rnsandipsurya.blogspot.com/2022/03/mgnrega-card.html" target="_blank">Click Here</a></button></div>
+      
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjUCmD2LlRBIZYhNDzRTLlIxa1l4jZooX4QnpIHOEJ4Kq5FQIoRonQQQsuIDhromHgBzO1w_0qmVBcs5jZBZBy9fVOTU4alhhHGoti0lkYctOnmq0VYuCJKQTBznNn8F4KRYw98-Fs94Q8Yr3mqh5_7A1baehTJSPJFM9lzUBYEOlFKfy8hRcN_s7-p=s600" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="312" data-original-width="600" src="https://blogger.googleusercontent.com/img/a/AVvXsEjUCmD2LlRBIZYhNDzRTLlIxa1l4jZooX4QnpIHOEJ4Kq5FQIoRonQQQsuIDhromHgBzO1w_0qmVBcs5jZBZBy9fVOTU4alhhHGoti0lkYctOnmq0VYuCJKQTBznNn8F4KRYw98-Fs94Q8Yr3mqh5_7A1baehTJSPJFM9lzUBYEOlFKfy8hRcN_s7-p=s200"/></a></div>
+        <button><a href="https://rnsandipsurya.blogspot.com/2022/03/pradhan-mantri-awas-yojana-pmaymis.html" target="_blank">Click Here</a></button></div>
+        
+        
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf1CACHWU-3bnC1rcxuZobOekkMhazuU1c9bCL5eXidl438Z3S6wS0GujC_Je2tZEjK9-Ppvwzv441J9Q_HJgIteWzpsSi_lOV4MD7Vroni4mdD99cDuFgT2mdw0okRaDM-hGQ9tI0YDXW5Ut8mxq5ym_M2E4RfRnBtsTvHX0Ruwa9sodlQkhNViy5/s200/fdfdsfds.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="104" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf1CACHWU-3bnC1rcxuZobOekkMhazuU1c9bCL5eXidl438Z3S6wS0GujC_Je2tZEjK9-Ppvwzv441J9Q_HJgIteWzpsSi_lOV4MD7Vroni4mdD99cDuFgT2mdw0okRaDM-hGQ9tI0YDXW5Ut8mxq5ym_M2E4RfRnBtsTvHX0Ruwa9sodlQkhNViy5/s200/fdfdsfds.png"/></a></div>
+     
+      <button><a href="https://rnsandipsurya.blogspot.com/2022/05/bhumijankari-bihar.html" target="_blank">Click Here</a></button>
+    </div>
+         <div class="w3-quarter">
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTRlmG92h0NLpOh0Cp_fgBtwQDqxHhuM7uixiFMeM9ZFaOoJrsvVSPFxhmKm7jssMUSHpss-EZvyVmqYOcnLt56cFGcPXUIe-VP_kk8mcWQrEuxPTBf_ae9GYFuU1BCpW-fkMV3jar1NZNIjyDvB5Yq4IzHlQlNFL11fGcrAn0oOY3VXNLY9BcRySp/s200/labour%20card%20bihar.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="104" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTRlmG92h0NLpOh0Cp_fgBtwQDqxHhuM7uixiFMeM9ZFaOoJrsvVSPFxhmKm7jssMUSHpss-EZvyVmqYOcnLt56cFGcPXUIe-VP_kk8mcWQrEuxPTBf_ae9GYFuU1BCpW-fkMV3jar1NZNIjyDvB5Yq4IzHlQlNFL11fGcrAn0oOY3VXNLY9BcRySp/s200/labour%20card%20bihar.png"/></a></div>
+     
+      <button><a href="https://bocw.bihar.gov.in/LabourRegistration.aspx" target="_blank">Click Here</a></button>
+    </div>
+    
+    </div>
+  </div>
+   <hr/>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+  <div class="w3-quarter"> 
+  <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXXrM8UXu8l7orUjdy9h6AL9F43hWL6CCGWou6rQgvf22Zty-ZOXKuFHgjA0X59oVWiCkGUgayDyOdDwViv3AuhlmAAWz5voYe8JrI5OYfRoyq_jQtgU45nyQY9ZwwQDXjr6891Ly9U8ivOoJHw22bSEO7sTGlsR4eswfWfBAKFNiJhtF25LNV_Obk/s800/bihar.webp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="450" data-original-width="800" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjXXrM8UXu8l7orUjdy9h6AL9F43hWL6CCGWou6rQgvf22Zty-ZOXKuFHgjA0X59oVWiCkGUgayDyOdDwViv3AuhlmAAWz5voYe8JrI5OYfRoyq_jQtgU45nyQY9ZwwQDXjr6891Ly9U8ivOoJHw22bSEO7sTGlsR4eswfWfBAKFNiJhtF25LNV_Obk/s200/bihar.webp"/></a></div>
+     <button><a href="https://serviceonline.bihar.gov.in/">Click Here</a></button>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!---Banking---->
+     
+    <div class="column cars">
+      <div class="content">
+         <h3 style="background-color: blue; color: white;">Net-Banking </h3>
+    <hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+     <div class="w3-quarter">
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjxxiKKWPuXg8ndyjXojfccAsVs9LhThOBxRgtYEv1z61cBxS31or61xlMVRmmBPSBmoNe9WTiKkOgeLMlTLOkZ8NTC7ry8MH9xQFCARH0Sh3zPWl_XRZzqdT2E0N2DnaTf3Of8-6W4eMrMP_K3XwJDElC6Z-MBa9HQ9ExrsccjI_VvNWawWpUdSuQS=s324" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="235" data-original-width="324" src="https://blogger.googleusercontent.com/img/a/AVvXsEjxxiKKWPuXg8ndyjXojfccAsVs9LhThOBxRgtYEv1z61cBxS31or61xlMVRmmBPSBmoNe9WTiKkOgeLMlTLOkZ8NTC7ry8MH9xQFCARH0Sh3zPWl_XRZzqdT2E0N2DnaTf3Of8-6W4eMrMP_K3XwJDElC6Z-MBa9HQ9ExrsccjI_VvNWawWpUdSuQS=s200"/></a></div>
+    <button><a href="https://netpnb.com/" target="_blank">Click Here</a></button>
+     </div>
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEhEQa0Ax9lX_70jOMPx_7Kk70QsbNWRPTnWcSozd5ejAiwK9KuE6TsZHajPHlnZeNTOhEvdf_t62fE9sWfZWsmXUMYhzeJRJjBc4UXfLB9_g5HZ6vxPiQgUZQgEIZqtd-r4-CjNHd6cbtGSQLm4ipkPt_ONgtQshNBNnsHyXciGe38cAjHqpMYD-jz6=s324" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="235" data-original-width="324" src="https://blogger.googleusercontent.com/img/a/AVvXsEhEQa0Ax9lX_70jOMPx_7Kk70QsbNWRPTnWcSozd5ejAiwK9KuE6TsZHajPHlnZeNTOhEvdf_t62fE9sWfZWsmXUMYhzeJRJjBc4UXfLB9_g5HZ6vxPiQgUZQgEIZqtd-r4-CjNHd6cbtGSQLm4ipkPt_ONgtQshNBNnsHyXciGe38cAjHqpMYD-jz6=s200"/></a></div>
+    <button><a href="https://retail.onlinesbi.com/" target="_blank">Click Here</a></button>
+     </div>
+     <div class="w3-quarter">
+             <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/a/AVvXsEjub9JpjGNbUOneMbBdMz-4u0zgy3CHwSSX0Vu1shhUWBx98p9xka0AjKv1oIgQjhwQlP-vUkEK5QJo5-sqKa1jDyJ0mDmYYPnJNj19nrp8fCTdpWwvoMxrRJhcDGPpcBZ4cjexvBSz9JDupkU8vuQ-rNEZ4kaG7nKAntEZZs8HzyfSk--p8PA6YeYb=s324" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="205" data-original-width="324" src="https://blogger.googleusercontent.com/img/a/AVvXsEjub9JpjGNbUOneMbBdMz-4u0zgy3CHwSSX0Vu1shhUWBx98p9xka0AjKv1oIgQjhwQlP-vUkEK5QJo5-sqKa1jDyJ0mDmYYPnJNj19nrp8fCTdpWwvoMxrRJhcDGPpcBZ4cjexvBSz9JDupkU8vuQ-rNEZ4kaG7nKAntEZZs8HzyfSk--p8PA6YeYb=s200"/></a></div>
+             <button><a href="https://www.sbisecurities.in/" target="_blank">Click Here</a></button>
+      </div>
+        <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjgAIN5SUr1TRb3gK82jWIL44QfHasPYN-UoYAEr59AXgqlHd5i5LskaAEdaPQUtg5isilkdCb33HxR59B4qYin3ozBO-eFsRdTDbKl5xZnTkay5Gs0l4ax7oKgXuCobVtf7AHz5O6AG_EeqK91ee3lEtfCr8MyBGaLQX8YCZUmzqARnOfYCxdkKzv/s200/bank%20ifsc%20code.jpg" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="127" data-original-width="200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjgAIN5SUr1TRb3gK82jWIL44QfHasPYN-UoYAEr59AXgqlHd5i5LskaAEdaPQUtg5isilkdCb33HxR59B4qYin3ozBO-eFsRdTDbKl5xZnTkay5Gs0l4ax7oKgXuCobVtf7AHz5O6AG_EeqK91ee3lEtfCr8MyBGaLQX8YCZUmzqARnOfYCxdkKzv/s200/bank%20ifsc%20code.jpg"/></a></div>
+            <button><a href="https://m.rbi.org.in//Scripts/IFSCMICRDetails.aspx">Click Here</a></button>
+   </div>
+      </div>
+    </div>
+      <hr>
+      
+      <!------bank 222-->
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+       <div class="w3-quarter">
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrwbbvyy5Bux-0arWBbIfay7uAV2-CjnyRKVOWVfto3rM2r2aseekGlwZx7qxGDlyQzWPZ8AKBNOOQXAjKmpfz6jc2WUqegfsmPHbYEKkFEEe5QAXzPgvAfPs0c2Zi2Fj6xlP7dibvNPHv9TBhBWlI62NcHS5XDYPs2tpIcv4qZUgm26bYCef6VyIM/s500/unnamed-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="500" data-original-width="500" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrwbbvyy5Bux-0arWBbIfay7uAV2-CjnyRKVOWVfto3rM2r2aseekGlwZx7qxGDlyQzWPZ8AKBNOOQXAjKmpfz6jc2WUqegfsmPHbYEKkFEEe5QAXzPgvAfPs0c2Zi2Fj6xlP7dibvNPHv9TBhBWlI62NcHS5XDYPs2tpIcv4qZUgm26bYCef6VyIM/s200/unnamed-removebg-preview.png"/></a></div>
+         <button><a href="https://bank.codes/swift-code-search/">Click Here</a></button>
+         </div>
+      </div>
+    </div>
+    
+    <!------Govt Service-->
+  
+    <div class="column people">
+      <div class="content">
+         <h3 style="background-color: blue; color: white;">GOVT (NEW) </h3><hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwz1u9TPAi_lMn1GrtAOxa9AzHt2snphLzqmPi1PnmWD15bIuIk32d7jw-Pt3L0pXOZ8lOaA0LHrQz0rij8X3P7FC-XPXtpKp5kTcO6F-qYnovSLTWaGS2R3I5vSPRkO803iQSQNvGqMWruo5Ejdj9NkKncqsqykDMRAQeX-896-yQEWsRq1WhoRGK/s361/csc.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200"height="142" data-original-width="361" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwz1u9TPAi_lMn1GrtAOxa9AzHt2snphLzqmPi1PnmWD15bIuIk32d7jw-Pt3L0pXOZ8lOaA0LHrQz0rij8X3P7FC-XPXtpKp5kTcO6F-qYnovSLTWaGS2R3I5vSPRkO803iQSQNvGqMWruo5Ejdj9NkKncqsqykDMRAQeX-896-yQEWsRq1WhoRGK/s200/csc.png"/></a></div>
+       
+         <h3 style="text-align:center;"><strong>CSC</strong> </h3>
+      <button><a href="https://rnsandipsurya.blogspot.com/2022/01/csc-service.html" target="_blank">Click Here</a></button>  
+      </div>   
+    <div class="w3-quarter">
+     <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVailo5_vu0_OkdF3kDQmITlwHCLG3Y-AGqt5Pj7v7yLV2eUp-9KmqxSNlZe9tuBrPGMyHxYQ5ADI9tE2x5ZEWTedVA_JcJUO--I4-o43kxp8SfZS6X2buxOvOvogr8DfLPPq7KhUX-7wbTSmPZ3-wNQSV9dcaFP3NxYIpl-AJv7A_tzHeBWbEDFQ_/s287/p.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="180" height="130" data-original-width="287" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjVailo5_vu0_OkdF3kDQmITlwHCLG3Y-AGqt5Pj7v7yLV2eUp-9KmqxSNlZe9tuBrPGMyHxYQ5ADI9tE2x5ZEWTedVA_JcJUO--I4-o43kxp8SfZS6X2buxOvOvogr8DfLPPq7KhUX-7wbTSmPZ3-wNQSV9dcaFP3NxYIpl-AJv7A_tzHeBWbEDFQ_/s200/p.png"/></a></div>
+      
+   <h3 style="text-align:center;"><strong>Eshram Card</strong> </h3>
+       <button><a href="https://rnsandipsurya.blogspot.com/2021/12/eshram.html" target="_blank">Click Here</a></button>
+      </div> 
+     <div class="w3-quarter">
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIv_0DSyLfht6RU6Tk64v0LXn0iJOu5Gz9qtreQQN1rL1_q6-mxlrev8iRIzXn72hHqLPPf4vFo1v1bPgd1dX7Ez2pBD3wWrVGce9Zt8edkDl8KzsIzAjut6CDLjvTQ73sxDMPtVfw9LRrLSdZdFqbkqhJbzxNyy_VGRUpa2Fap4vv83m5SZMuyysG/s1000/aayuman.webp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="675" data-original-width="1000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIv_0DSyLfht6RU6Tk64v0LXn0iJOu5Gz9qtreQQN1rL1_q6-mxlrev8iRIzXn72hHqLPPf4vFo1v1bPgd1dX7Ez2pBD3wWrVGce9Zt8edkDl8KzsIzAjut6CDLjvTQ73sxDMPtVfw9LRrLSdZdFqbkqhJbzxNyy_VGRUpa2Fap4vv83m5SZMuyysG/s200/aayuman.webp"/></a></div>
+      <h3 style="text-align:center;"><strong>Ayushman Card</strong> </h3>
+  
+         <p style="text-align:center;"><button onclick="sandipa()">Read More</button></p>
+  <script>
+            function sandipa(){
+             document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">Read Carefullay</h4><br/>');
+                
+                
+                document.write('<div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmDSyDUd9LUNEQpm1g88CCh1sluHRC6ENeLn_1vQHuVbUZ_DPbtOo1td3fMTu3uycadbgw55Nt6bgBdbt2vibenV_pMRup9_pa3I8Lzw0xJWFCnUysXhfu8ZNelxqXW392XTmxuZ3UqWhXerxYbXrLL3V6Hq_QDbkapzClGqT8knsE1EyuaMUXQEQb/s256/arrow_down.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="256" data-original-width="256" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhmDSyDUd9LUNEQpm1g88CCh1sluHRC6ENeLn_1vQHuVbUZ_DPbtOo1td3fMTu3uycadbgw55Nt6bgBdbt2vibenV_pMRup9_pa3I8Lzw0xJWFCnUysXhfu8ZNelxqXW392XTmxuZ3UqWhXerxYbXrLL3V6Hq_QDbkapzClGqT8knsE1EyuaMUXQEQb/s200/arrow_down.png"/></a></div><br/>');
+                
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Ayushman Card some important link,You can make Ayushman Card by clicking on this link. </h4><br/>');
+             
+               
+                 document.write('<h6><button><a href="https://pmjay.gov.in/">Pmjay (Official)</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://setu.pmjay.gov.in/setu/checkpmjay">Ayushman Card link-1</a></button></h6><hr/>');
+                   document.write('<h6><button><a href="https://setu.pmjay.gov.in/setu/beneficiarySearchByhhid">Ayushman Card link-2</a></button></h6><hr/>');
+                    document.write('<h6><button><a href="https://users.nha.gov.in/UserManagement/">Ayushman Mithra</a></button></h6><hr/>');
+                    
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+    </div>
+      <div class="w3-quarter">
+       <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6zAUjr_iqyM_C6LSN9oLaIMVhF55EpUkAacb5Ri_9acNrawMXO7btb9EXWDJPjv_UMp32Zhf1dc2H4mU63Ms3N__B3mW9MDOVtIL1gvSkqyNEbaswB-X8TpEXHai4VFD7p5Nr4fHEmiNaUJskNp2jxjnsD1_rKFdWfFZwkOSGHpNzxmkxsE2ig7NM/s1000/PANCARDD.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="675" data-original-width="1000" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6zAUjr_iqyM_C6LSN9oLaIMVhF55EpUkAacb5Ri_9acNrawMXO7btb9EXWDJPjv_UMp32Zhf1dc2H4mU63Ms3N__B3mW9MDOVtIL1gvSkqyNEbaswB-X8TpEXHai4VFD7p5Nr4fHEmiNaUJskNp2jxjnsD1_rKFdWfFZwkOSGHpNzxmkxsE2ig7NM/s200/PANCARDD.png"/></a></div>
+     <h3 style="text-align:center;"><strong>Pan Card</strong> </h3>
+  
+         <p style="text-align:center;"><button onclick="sandipab()">Read More</button></p>
+  <script>
+            function sandipab(){
+             document.open();
+                document.write('<h4 style="font-size: 30px;text-align: center;">Watch Carefullay</h4><br/>');
+                
+                
+                document.write('<iframe width="100%" height="500px" src="https://www.youtube.com/embed/SSme1LXIFf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/>');
+                
+               document.write('<h4 style="font-size: 30px;text-align: center;"> PAN Card some important link, </h4><hr/><br/>');
+             
+               
+                 document.write('<h6><button><a href="https://drive.google.com/file/d/1nPr35-NZe-hbc8Had_zxfP5BWIidcsVH/view?usp=sharing">Form(49A)</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://www.onlineservices.nsdl.com/paam/endUserRegisterContact.html">Apply Online( New)</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://tin.tin.nsdl.com/pantan/StatusTrack.html">Pancard Status</a></button></h6><hr/>');
+                  document.write('<h6><button><a href=""https://www.onlineservices.nsdl.com/paam/ReprintEPan.html>Request for Reprint of PAN Card</a></button></h6><hr/>');
+               document.write('<h6><button><a href="https://www.onlineservices.nsdl.com/paam/requestAndDownloadEPAN.html">Download e-PAN Card</a></button></h6><hr/>');
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+     
+      </div>
+    </div>
+      <hr style="color:red; background-color:red; padding:1px;"/>
+     <!-- second slide 3 coloum-->
+     <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+    <div class="w3-quarter">
+      <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwv0eS_8mk-mG36tdIkvn8lJ21MxPDDWfPjj_oSTgFg083uMn5fmmK5NPlFh1DL7QHs58dI6ufq-zksavyDZB0vEPAF7x603tUKkzT30ujUs-2T2w0tjtPRgO0en12vjKEuAAC1XqapPnYczREium5yayYzHR3e2aqPvzppFMM_8VzHHqr5DguKoTe/s512/unnamed.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0"  height="130" data-original-height="253" data-original-width="199"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjwv0eS_8mk-mG36tdIkvn8lJ21MxPDDWfPjj_oSTgFg083uMn5fmmK5NPlFh1DL7QHs58dI6ufq-zksavyDZB0vEPAF7x603tUKkzT30ujUs-2T2w0tjtPRgO0en12vjKEuAAC1XqapPnYczREium5yayYzHR3e2aqPvzppFMM_8VzHHqr5DguKoTe/s200/unnamed.png"/></a></div>
+       
+   <h3 style="text-align:center;"><strong>VOTER ID</strong> </h3>
+       <button><a href="https://rnsandipsurya.blogspot.com/2022/01/voter-id-card-nvsp.html" target="_blank">Click Here</a></button>
+      </div>
+     <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh6zAUjr_iqyM_C6LSN9oLaIMVhF55EpUkAacb5Ri_9acNrawMXO7btb9EXWDJPjv_UMp32Zhf1dc2H4mU63Ms3N__B3mW9MDOVtIL1gvSkqyNEbaswB-X8TpEXHai4VFD7p5Nr4fHEmiNaUJskNp2jxjnsD1_rKFdWfFZwkOSGHpNzxmkxsE2ig7NM/s1000/PANCARDD.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="675" data-original-width="1000" src="https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Aadhaar_Logo.svg/1200px-Aadhaar_Logo.svg.png"/></a></div>
+        <h3 style="text-align:center;"><strong>ADHAR CARD</strong> </h3>
+       <button><a href="https://rnsandipsurya.blogspot.com/2022/01/adhar-card-uidai.html" target="_blank">Click Here</a></button>
+    </div>
+       
+       
+       
+       
+        <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeYoSM7A3IXhX95hp7eXq-0-2ICVyL4B18mBDEGeeEb_-Fa0vdoVUHdXN4TvR49ZX9lwxpf9rPejN0QFqmhbTKUzDjYZcqtF304-DMaPPAl-tqqhfMuckI1LdREOJfuGcW1gVkO1bTw6kBky9oypVJYCCFUtd9GwIzxZ79rQpbPQys7PGVwqcV_cic/s253/images.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" height="180" data-original-height="253" data-original-width="199" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgeYoSM7A3IXhX95hp7eXq-0-2ICVyL4B18mBDEGeeEb_-Fa0vdoVUHdXN4TvR49ZX9lwxpf9rPejN0QFqmhbTKUzDjYZcqtF304-DMaPPAl-tqqhfMuckI1LdREOJfuGcW1gVkO1bTw6kBky9oypVJYCCFUtd9GwIzxZ79rQpbPQys7PGVwqcV_cic/s200/images.png"/></a></div> 
+         <p style="text-align:center;"><button onclick="aqwsw()">Read More</button></p>
+  <script>
+            function aqwsw(){
+             document.open();
+  
+                document.write('<br/>');
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Health Card some important link, </h4><hr/><br/>');
+       
+                 document.write('<h6><button><a href="https://healthid.ndhm.gov.in/register">Register</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://healthid.ndhm.gov.in/login/">Login</a></button></h6><hr/>');
+              
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+            }
+        </script>
+        </div>
+       
+       
+        <div class="w3-quarter">
+           <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglop2Jj2yQmJu8NRsjR1GS81UP-1YV5dLl3hlOl4Ux0ZSgt1CJ4FxehLwhD24RJN7zX1iHWrDlPRHbfcGcRUP0hagwTBPhYBJfK-xPAWhkjJ7OprMS1y5eA4g0FGVgro_KFPTeghZE0bAZIAbjZ8jjtpG7gn5E62-VPPq4RdiWhTEe_PpOcUV-oewt/s166/images.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="84" data-original-width="166" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEglop2Jj2yQmJu8NRsjR1GS81UP-1YV5dLl3hlOl4Ux0ZSgt1CJ4FxehLwhD24RJN7zX1iHWrDlPRHbfcGcRUP0hagwTBPhYBJfK-xPAWhkjJ7OprMS1y5eA4g0FGVgro_KFPTeghZE0bAZIAbjZ8jjtpG7gn5E62-VPPq4RdiWhTEe_PpOcUV-oewt/s200/images.png"/></a></div>
+         <h3 style="text-align:center;"><strong>Online Registration System Patient</strong> </h3>
+         <p style="text-align:center;"><button onclick="aqwswe()">Read More</button></p>
+  <script>
+            function aqwswe(){
+             document.open();
+  
+                document.write('<br/>');
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Online Registration System (ORS) Patient some important link, </h4><hr/><br/>');
+       
+                 document.write('<h6><button><a href="https://ors.gov.in/"> Offical Sites</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://ors.gov.in/orsportal/login">Login</a></button></h6><hr/>');
+              document.write('<h6><button><a href="https://ors.gov.in/orsportal/selectAppointment">Appointment Book</a></button></h6><hr/>');
+              
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+  
+        
+       </div>
+      </div>
+        
+        <!--- center govt 3 coloum --->
+     <hr style="color:red; background-color:red; padding:1px;"/>
+     <div class="w3-row-padding w3-padding-16 w3-center" id="food"> 
+      <div class="w3-quarter">
+          <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0oR0AyoiSWt7bs3q8X0zqGRULmsPN3YSQk9aqxqHgqQcOPf0WgD8aCAKoF8cCa3y87tsAlmp-UV4b7bySGmxfjXeF9VN1w87twfEbLP8aa9WriN6EdDeRsoSvn8WRijhWH02bBXNXYP-s1PvMq1jdFBygoTlQ8XcDuzC53mjE5Wn8EGqgNY0aaZHS/s600/Intelligent-Communication-Systems-India-Ltd.-ICSIL.webp" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0"  height="120" data-original-height="253" data-original-width="199"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0oR0AyoiSWt7bs3q8X0zqGRULmsPN3YSQk9aqxqHgqQcOPf0WgD8aCAKoF8cCa3y87tsAlmp-UV4b7bySGmxfjXeF9VN1w87twfEbLP8aa9WriN6EdDeRsoSvn8WRijhWH02bBXNXYP-s1PvMq1jdFBygoTlQ8XcDuzC53mjE5Wn8EGqgNY0aaZHS/s200/Intelligent-Communication-Systems-India-Ltd.-ICSIL.webp"/></a></div>
+         <h3 style="text-align:center;"><strong>Driving Licence</strong> </h3>
+         <p style="text-align:center;"><button onclick="aqwswer()">Read More</button></p>
+  <script>
+            function aqwswer(){
+             document.open();
+  
+                document.write('<br/>');
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Driving Licence some important link, </h4><hr/><br/>');
+       
+                 document.write('<h6><button><a href="https://parivahan.gov.in/parivahan/">Offical (Apply for Learner Licence, Change Address And Other)</a></button></h6><hr/>');
+                  document.write('<h6><button><a href="https://parivahan.gov.in/rcdlstatus/?pur_cd=101">Driving Licence (DL) Status</a></button></h6><hr/>');
+              
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+            </div>
+       
+       <div class="w3-quarter">  
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmiGQNvxjxjcglwPE1uWc5tq0LFVE2Lej2A0ulYlzu4371tui0hPa_76PeHF7tk1PjK1wOdPxKsWgjacLYxyMtBmfo4TIqFL_wSYFP7IpcY-vSBEACHdslDedh1ewmC8WlGssMoHMdacP4AMC2dK-_JmUB7mAAz4ClegXxAXWfhQrhbRSew6x8gc81/s751/EPFO_Logo.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0"  height="120" data-original-height="253" data-original-width="199"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjmiGQNvxjxjcglwPE1uWc5tq0LFVE2Lej2A0ulYlzu4371tui0hPa_76PeHF7tk1PjK1wOdPxKsWgjacLYxyMtBmfo4TIqFL_wSYFP7IpcY-vSBEACHdslDedh1ewmC8WlGssMoHMdacP4AMC2dK-_JmUB7mAAz4ClegXxAXWfhQrhbRSew6x8gc81/s200/EPFO_Logo.png"/></a></div>
+         <h3 style="text-align:center;"><strong>Provident Fund (PF)</strong> </h3>
+         <p style="text-align:center;"><button onclick="aqwswert()">Read More</button></p>
+  <script>
+            function aqwswert(){
+             document.open();
+  
+                document.write('<br/>');
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Employees Provident Fund Organisation some important link, </h4><hr/><br/>');
+       
+                 document.write('<h6><button><a href="https://www.epfindia.gov.in/">Offical Site</a></button></h6><hr/>');
+                 
+              
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+       </div>
+       
+       <div class="w3-quarter"> 
+         <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvgw1gZpSQ0kkPWeCp9YnUTnk45cKDS88KTAeJmcvGp0AWKzEUKMxLyKd35O87-4TtQLONc_44RFBMpo0Lk-EXOuHb3zNqbggnXgQ06QbyeBjHgRNV_ldv8KDii-xjDuxdiCYSOqY2uEbR--bpl8ZVuHEKfUJr2dL1SOijhO2oHXwtpJYD0psnub61/s1200/1751.PNG" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="649" data-original-width="1200" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvgw1gZpSQ0kkPWeCp9YnUTnk45cKDS88KTAeJmcvGp0AWKzEUKMxLyKd35O87-4TtQLONc_44RFBMpo0Lk-EXOuHb3zNqbggnXgQ06QbyeBjHgRNV_ldv8KDii-xjDuxdiCYSOqY2uEbR--bpl8ZVuHEKfUJr2dL1SOijhO2oHXwtpJYD0psnub61/s200/1751.PNG"/></a></div>
+         <h3 style="text-align:center;"><strong>Indian Post</strong> </h3>
+         <p style="text-align:center;"><button onclick="aqwswertl()">Read More</button></p>
+  <script>
+            function aqwswertl(){
+             document.open();
+  
+                document.write('<br/>');
+               document.write('<h4 style="font-size: 30px;text-align: center;"> Indian Post some important link, </h4><hr/><br/>');
+        document.write('<h6><button><a href="https://www.indiapost.gov.in/VAS/Pages/IndiaPosthome.aspx">Offical Site</a></button></h6><hr/>');
+                 document.write('<h6><button><a href="https://www.indiapost.gov.in/_layouts/15/dop.portal.tracking/trackconsignment.aspx">Track Consignment</a></button></h6><hr/>');
+                 
+              
+               
+                  document.write('<h4 style="font-size: 30px ;text-align: center;">Thank You<br>Regerds<br>SANDIP</h4>');
+             
+            }
+        </script>
+       </div>
+       
+       <div class="w3-quarter">  
+       </div>
+        </div>
+        <hr>
+  <h3 style="background-color: blue; color: white;"> NEW </h3><hr />
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <div class="separator" style="clear: both;"><a href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghHAWda7X_QTELOCKd-8y0EF8pWoGT3vQoXFI_pgaRjTUBrrQI58ssqloVKovypDdOtln0p901YCIapoRcpn6wZVzgUF1ZA5Rg_irhWlFaqjrLPVRJurlAs-tE5cztjtz56m70ewsFdraZoRiAnRWPeFSGwphqMApI96d7hYZAbSTIDg4LbTYw6dOb/s360/croppe-removebg-preview.png" style="display: block; padding: 1em 0; text-align: center; "><img alt="" border="0" width="200" data-original-height="240" data-original-width="360" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghHAWda7X_QTELOCKd-8y0EF8pWoGT3vQoXFI_pgaRjTUBrrQI58ssqloVKovypDdOtln0p901YCIapoRcpn6wZVzgUF1ZA5Rg_irhWlFaqjrLPVRJurlAs-tE5cztjtz56m70ewsFdraZoRiAnRWPeFSGwphqMApI96d7hYZAbSTIDg4LbTYw6dOb/s200/croppe-removebg-preview.png"/></a></div>
+         <h3 style="text-align:center;"><strong> TAF COP ( SIM Card Find)</strong> </h3>
+        <p style="text-align:center;"><button><a href="https://tafcop.dgtelecom.gov.in/"> Click Here</a></button></p>
+         </div>
+        </div>
+  <script>
+  filterSelection("people")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+    }
+  }
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
+  </script>
+        <br/>
+        <br/>
